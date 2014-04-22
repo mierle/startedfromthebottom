@@ -1,0 +1,147 @@
+
+// Imports
+
+@import "globals";
+
+body {
+	-webkit-font-smoothing: antialiased;
+	display: block;
+	text-align: center;
+}
+
+/* =============================================================================
+   Main Site Styles
+   ========================================================================== */
+
+.wrap {
+	max-width: 800px;
+	padding: 0px 20px 0 20px;	
+	margin: 0 auto;
+}
+.miniwrap {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.cover {
+	background-color: $grey1;
+	.eyebrows {
+		padding: 140px 0 160px 0;
+	}
+	.title {
+		padding: 70px 0 70px 0;
+		p {
+			font-family: 'Bodoni Seventytwo Itc P OT';
+			color: $gold;
+			text-align: center;
+			font-size: 30px;
+			&.large {
+				font-size: 70px;
+			}
+		}
+	}
+}
+.birth {
+	background-color: $grey1;
+	color: #fff;
+	$pink: #d39cc6; 
+	padding: 30px 0 0 0;
+	h3 {
+		color: $pink;
+	}
+	h2 {
+		margin: 100px 0 180px 0;
+	}
+	.icecream {
+		padding: 40px 0 100px 0;
+	}
+	.purple {
+		background-color: $pink;
+		padding: 0 0 100px 0;
+		.babydrake {
+			img {
+				margin-top: -100px;
+			}
+		}
+		p {
+			@include wrap;
+			margin-top: 60px;
+		}
+	}
+}
+.foresthill {
+	background-color: #f2f2f2;
+	color: $grey1;
+	padding: 30px 0 200px 0;
+}
+.hockey {
+	background-color: #923133;
+	color: $white;
+	@include pad;
+	img {
+		margin-top: -250px;
+		height: 275px;
+	}
+	h3 {
+		color: $gold;
+	}
+}
+.barmitzvah {
+	background-color: #434658;
+	color: $white;
+	@include pad;
+	h3 {
+		color: $grey3;
+	}
+	h2 {
+		color: $gold;
+	} 
+}
+.degrassi {
+	background-color: $bluegrey;
+	color: #fff;
+	padding-bottom: 100px;
+	h2 {
+		color: #b8deff;
+	}
+	h3 {
+		color: #9767b7;
+	}
+	.denimbutt {
+		background-image: url('img/degrassi.png');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		height: 600px;
+	}
+	img {
+		margin-top: -100px;
+	}
+}
+.mixtape {
+	background-color: #000;
+	color: $white;
+	@include pad;
+	h2 {
+		color: $grey1;
+	}
+	h3 {
+		color: $gold;
+	}
+	blockquote {
+		max-width: 400px;
+
+	}
+}
+.wayne {
+	.waynesface {
+		background-color: $grey6;
+		background-image: url('img/wayne.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center bottom;
+		height: 700px;
+	}
+}
+
+
+
