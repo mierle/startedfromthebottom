@@ -54,6 +54,21 @@ body {
 	.icecream {
 		padding: 40px 0 100px 0;
 	}
+	.droplet {
+		width: 8px;
+		height: 90px;
+		background-image: url(img/icecream_drop1.png);
+		background-repeat: no-repeat;
+		background-position: 0px -40px;
+		position: absolute;
+		left: 50%;
+		margin: 117px -45px;
+		&.second {
+			background-image: url(img/icecream_drop2.png);
+			background-repeat: no-repeat;
+			margin: 75px 40px;
+		}
+	}
 	.purple {
 		background-color: $pink;
 		padding: 0 0 100px 0;
