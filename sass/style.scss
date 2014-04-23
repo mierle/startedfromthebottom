@@ -147,7 +147,7 @@ body {
 	color: $white;
 	@include pad;
 	h2 {
-		color: $grey1;
+		color: $grey3;
 	}
 	h3 {
 		color: $gold;
@@ -158,13 +158,193 @@ body {
 	}
 }
 .wayne {
+	padding-bottom: 100px;
+	color: $grey1;
 	.waynesface {
-		background-color: $grey6;
+		background-color: $grey0;
 		background-image: url('img/wayne.png');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center bottom;
 		height: 700px;
+	}
+	h3 {
+		color: #c42c0e;
+		margin-top: 100px;
+	}
+	.email {
+		color: #c42c0e;
+		font-weight: 700;
+	}
+
+}
+.dice {
+	background-image: url('img/shoes.png');
+	background-repeat: no-repeat;
+	padding: 500px 0 100px 0;
+	color: $grey1;
+}
+.littles {
+	background-color: $grey1;
+	color: $white;
+	@include pad();
+	h3 {
+		color: $grey3;
+	}
+	h2{
+		color: $gold;
+	}
+
+}
+.fired {
+	background-color: $beige;
+	color: $grey1;
+	@include pad();
+}
+.littles {
+	background-color: $grey1;
+	color: $white;
+	@include pad();
+	h3 {
+		color: $grey3;
+	}
+	h2{
+		color: $gold;
+	}
+}
+.ladieslovedrake {
+	@include pad();
+	color: #fff;
+	background-color: $grey0;
+	p {
+		margin: 100px 0 0 0;
+		max-width: 500px;
+	}
+	h3 {
+		color: #7d3b45;
+	}
+	h2{
+		color: #fff;
+	}
+}
+.hot97 {
+	background-color: $grey1;
+	color: $white;
+	@include pad();
+	h3 {
+		color: $grey3;
+	}
+	h2{
+		color: $gold;
+	}
+}
+.recorddeal {
+	@include pad();
+	background-color: $grey0;
+	color: #fff;
+	h3 {
+		color: $grey3;
+	}
+	h2 {
+		color: $gold;
+	}
+}
+.canadagoose {
+	background-color: $grey1;
+	color: $white;
+	background-image: url('img/canada-goose.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	padding: 100px 0 0 0;
+	h3 {
+		color: $grey3;
+	}
+	h2{
+		color: $gold;
+	}
+	p.last {
+		padding-bottom: 100px;
+		margin-bottom: 0px;
+	}
+}
+.kentucky {
+	padding: 100px 0 300px 0;
+	background-color: $grey0;
+	color: #fff;
+	h3 {
+		color: $grey3;
+	}
+	h2 {
+		color: $gold;
+	}
+}
+.kevin {
+	background-color: #a83257;
+	color: #fff;
+	@include pad();
+	img {
+		margin-top: -300px;
+	}
+	h3 {
+		color: #f6d0b3;
+	}
+	h2 {
+		color: #e39db3;
+	}
+}
+.aaliyah {
+	@include pad();
+	background-color: $grey0;
+	color: #fff;
+	h3 {
+		color: $grey3;
+	}
+	h2 {
+		color: $gold;
+	}
+}
+.strippers {
+	@include pad();
+	background-color: #4d4d4d;
+	color: #fff;
+	h2 {
+		color: #8f9c7d;
+	}
+	h3 {
+		color: $grey3;
+	}
+	h4 {
+		color: $gold;
+	}
+}
+.miami {
+	@include pad();
+	background-color: $grey0;
+	color: #fff;
+	h3 {
+		color: #ff9800;
+	}
+	h2 {
+		color: $beige;
+	}
+}
+.raptors {
+	@include pad();
+	background-color: #000;
+	color: #fff;
+	h2 {
+		color: $gold;
+	}
+	h3 {
+		color: $grey3;
+	}
+}
+.espn {
+	@include pad();
+	background-color: $grey6;
+	color: $grey1;
+	blockquote {
+		color: #b50002;
 	}
 }
 
