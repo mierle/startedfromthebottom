@@ -118,6 +118,19 @@ body {
     margin: 100px 0 180px 0; }
   .birth .icecream {
     padding: 40px 0 100px 0; }
+  .birth .droplet {
+    width: 8px;
+    height: 90px;
+    background-image: url(img/icecream_drop1.png);
+    background-repeat: no-repeat;
+    background-position: 0px -40px;
+    position: absolute;
+    left: 50%;
+    margin: 117px -45px; }
+    .birth .droplet.second {
+      background-image: url(img/icecream_drop2.png);
+      background-repeat: no-repeat;
+      margin: 75px 40px; }
   .birth .purple {
     background-color: #d39cc6;
     padding: 0 0 100px 0; }
