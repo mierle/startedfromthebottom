@@ -180,10 +180,104 @@ body {
   .mixtape blockquote {
     max-width: 400px; }
 
-.wayne .waynesface {
-  background-color: #f2f2f2;
-  background-image: url("img/wayne.png");
+.wayne {
+  padding-bottom: 100px;
+  color: #333333; }
+  .wayne .waynesface {
+    background-color: #282629;
+    background-image: url("img/wayne.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    height: 700px; }
+  .wayne h3 {
+    color: #c42c0e;
+    margin-top: 100px; }
+
+.dice {
+  background-image: url("img/shoes.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center bottom;
-  height: 700px; }
+  padding: 500px 0 100px 0;
+  color: #333333; }
+
+.littles {
+  background-color: #333333;
+  color: white;
+  padding: 100px 20px 100px 20px; }
+  .littles h3 {
+    color: gray; }
+  .littles h2 {
+    color: #c6b26d; }
+
+.fired {
+  background-color: #c7b299;
+  color: #333333;
+  padding: 100px 20px 100px 20px; }
+
+.littles {
+  background-color: #333333;
+  color: white;
+  padding: 100px 20px 100px 20px; }
+  .littles h3 {
+    color: gray; }
+  .littles h2 {
+    color: #c6b26d; }
+
+.ladieslovedrake {
+  padding: 100px 20px 100px 20px;
+  color: #fff;
+  background-color: #282629; }
+  .ladieslovedrake p {
+    margin: 100px 0 0 0;
+    max-width: 500px; }
+  .ladieslovedrake h3 {
+    color: #7d3b45; }
+  .ladieslovedrake h2 {
+    color: #fff; }
+
+.hot97 {
+  background-color: #333333;
+  color: white;
+  padding: 100px 20px 100px 20px; }
+  .hot97 h3 {
+    color: gray; }
+  .hot97 h2 {
+    color: #c6b26d; }
+
+.recorddeal {
+  padding: 100px 20px 100px 20px;
+  background-color: #282629;
+  color: #fff; }
+  .recorddeal h3 {
+    color: gray; }
+  .recorddeal h2 {
+    color: #c6b26d; }
+
+.canadagoose {
+  background-color: #333333;
+  color: white;
+  padding: 100px 20px 100px 20px; }
+  .canadagoose h3 {
+    color: gray; }
+  .canadagoose h2 {
+    color: #c6b26d; }
+
+.kentucky {
+  padding: 100px 0 300px 0;
+  background-color: #282629;
+  color: #fff; }
+  .kentucky h3 {
+    color: gray; }
+  .kentucky h2 {
+    color: #c6b26d; }
+
+.kevin {
+  background-color: #a83257;
+  color: #fff;
+  padding: 100px 20px 100px 20px; }
+  .kevin img {
+    margin-top: -300px; }
+  .kevin h3 {
+    color: #f6d0b3; }
+  .kevin h2 {
+    color: #e39db3; }
