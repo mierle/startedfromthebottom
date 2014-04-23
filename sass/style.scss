@@ -137,7 +137,7 @@ body {
 	color: $white;
 	@include pad;
 	h2 {
-		color: $grey1;
+		color: $grey3;
 	}
 	h3 {
 		color: $gold;
@@ -161,6 +161,10 @@ body {
 	h3 {
 		color: #c42c0e;
 		margin-top: 100px;
+	}
+	.email {
+		color: #c42c0e;
+		font-weight: 700;
 	}
 
 }
@@ -238,12 +242,19 @@ body {
 .canadagoose {
 	background-color: $grey1;
 	color: $white;
-	@include pad();
+	background-image: url('img/canada-goose.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	padding: 100px 0 0 0;
 	h3 {
 		color: $grey3;
 	}
 	h2{
 		color: $gold;
+	}
+	p.last {
+		padding-bottom: 100px;
+		margin-bottom: 0px;
 	}
 }
 .kentucky {
@@ -269,6 +280,61 @@ body {
 	}
 	h2 {
 		color: #e39db3;
+	}
+}
+.aaliyah {
+	@include pad();
+	background-color: $grey0;
+	color: #fff;
+	h3 {
+		color: $grey3;
+	}
+	h2 {
+		color: $gold;
+	}
+}
+.strippers {
+	@include pad();
+	background-color: #4d4d4d;
+	color: #fff;
+	h2 {
+		color: #8f9c7d;
+	}
+	h3 {
+		color: $grey3;
+	}
+	h4 {
+		color: $gold;
+	}
+}
+.miami {
+	@include pad();
+	background-color: $grey0;
+	color: #fff;
+	h3 {
+		color: #ff9800;
+	}
+	h2 {
+		color: $beige;
+	}
+}
+.raptors {
+	@include pad();
+	background-color: #000;
+	color: #fff;
+	h2 {
+		color: $gold;
+	}
+	h3 {
+		color: $grey3;
+	}
+}
+.espn {
+	@include pad();
+	background-color: $grey6;
+	color: $grey1;
+	blockquote {
+		color: #b50002;
 	}
 }
 

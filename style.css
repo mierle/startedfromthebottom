@@ -68,7 +68,8 @@ h4 {
 p {
   font-size: 26px;
   line-height: 1.4;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 26px; }
 
 blockquote {
   font-size: 50px;
@@ -187,7 +188,7 @@ body {
   color: white;
   padding: 100px 20px 100px 20px; }
   .mixtape h2 {
-    color: #333333; }
+    color: gray; }
   .mixtape h3 {
     color: #c6b26d; }
   .mixtape blockquote {
@@ -206,6 +207,9 @@ body {
   .wayne h3 {
     color: #c42c0e;
     margin-top: 100px; }
+  .wayne .email {
+    color: #c42c0e;
+    font-weight: 700; }
 
 .dice {
   background-image: url("img/shoes.png");
@@ -269,11 +273,17 @@ body {
 .canadagoose {
   background-color: #333333;
   color: white;
-  padding: 100px 20px 100px 20px; }
+  background-image: url("img/canada-goose.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 100px 0 0 0; }
   .canadagoose h3 {
     color: gray; }
   .canadagoose h2 {
     color: #c6b26d; }
+  .canadagoose p.last {
+    padding-bottom: 100px;
+    margin-bottom: 0px; }
 
 .kentucky {
   padding: 100px 0 300px 0;
@@ -294,3 +304,48 @@ body {
     color: #f6d0b3; }
   .kevin h2 {
     color: #e39db3; }
+
+.aaliyah {
+  padding: 100px 20px 100px 20px;
+  background-color: #282629;
+  color: #fff; }
+  .aaliyah h3 {
+    color: gray; }
+  .aaliyah h2 {
+    color: #c6b26d; }
+
+.strippers {
+  padding: 100px 20px 100px 20px;
+  background-color: #4d4d4d;
+  color: #fff; }
+  .strippers h2 {
+    color: #8f9c7d; }
+  .strippers h3 {
+    color: gray; }
+  .strippers h4 {
+    color: #c6b26d; }
+
+.miami {
+  padding: 100px 20px 100px 20px;
+  background-color: #282629;
+  color: #fff; }
+  .miami h3 {
+    color: #ff9800; }
+  .miami h2 {
+    color: #c7b299; }
+
+.raptors {
+  padding: 100px 20px 100px 20px;
+  background-color: #000;
+  color: #fff; }
+  .raptors h2 {
+    color: #c6b26d; }
+  .raptors h3 {
+    color: gray; }
+
+.espn {
+  padding: 100px 20px 100px 20px;
+  background-color: #f2f2f2;
+  color: #333333; }
+  .espn blockquote {
+    color: #b50002; }
