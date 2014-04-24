@@ -68,6 +68,9 @@ h3 {
 	font-size: 170px;
 	margin: 30px 0 30px 0;
 	font-weight: normal;
+	// @include screen and (max-width: $small) {
+	// 	font-size: 60px
+	// }
 }
 h4 {
 	font-family: 'Bodoni Seventytwo Itc P OT';
@@ -103,6 +106,7 @@ button {
 }
 
 // Colours //
+
  $grey0: #282629;
  $grey1: #333333;
  $grey3: #808080;
@@ -112,3 +116,8 @@ button {
  $bluegrey: #282629;
  $beige: #c7b299;
 
+// Responsive Breakpoints //
+
+$large:       new-breakpoint(max-width 1100px 6);
+$medium:       new-breakpoint(max-width 960px 6);
+$small:       new-breakpoint(max-width 570px 2);

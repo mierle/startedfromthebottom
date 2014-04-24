@@ -329,6 +329,14 @@ body {
 		color: $grey3;
 	}
 }
+.manziel {
+	@include pad();
+	background-color: $grey1;
+	color: #fff;
+	h2 {
+		color: $grey6;
+	}
+}
 .espn {
 	@include pad();
 	background-color: $grey6;
