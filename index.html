@@ -5,32 +5,34 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="cover">
-		<div class="eyebrows">
+	<div class="cover" data-0="background-color:rgb(51,51,51);" data-250="background-color:rgb(119,119,119);">
+		<div class="eyebrows" data-0="opacity: 1;" data-350="opacity: 0;">
 			<img src="img/eyebrows.png">
 		</div>
-		<img class="arrow" src="img/arrow.png">
+		<img class="arrow" src="img/arrow.png" data-0="opacity: 1;" data-475="opacity: 0;">
 		<div class="title">
 			<p>Started from</p>
 			<p class="large">The Bottom</p>
 		</div>
 	</div>
 	<div class="birth">
-		<div class="icecream">
+		<div class="icecream" src="img/arrow.png" data-500="opacity: 1;" data-1200="opacity: 0;">
 			<div class="droplet first"></div>
 			<div class="droplet second"></div>
 			<img src="img/icecream.png">
 		</div>
 		<div class="wrap">
 			<h4>Toronto, Canada</h4>
-			<h3>1986</h3>
-			<h2>A singing rapper, child actor and sports fan is born</h2>	
+			<h3 data-500="left: 50%; margin-top: 50px" data-1000="left: 50%; margin-top: 100px" data-1300="left: 50%; margin-top: 100px;" data-1200="opacity: 1;" data-1500="opacity: 0;">1986</h3>
+			<h2 data-1400="opacity: 1;" data-1700="opacity: 0;">A singing rapper, child actor and sports fan is born</h2>
 		</div>
 		<div class="purple">
-			<div class="babydrake">
-				<img src="img/lildrake.png">
+			<div class="babydrake" data-2000="opacity: 1;" data-2500="opacity: 0;">
+				<div class="circle">
+					<img data-1400="margin-top: 200px" data-2000="margin-top: 100px" src="img/lildrake.png">
+				</div>
 			</div>
-			<p>The undeniable adorable small child Aubrey Drake Graham was born on October 24, in Toronto Ontario to a mother who was a teacher, and a musiscian father.</p>
+			<p data-2000="opacity: 1;" data-2700="opacity: 0;">The undeniable adorable small child Aubrey Drake Graham was born on October 24, in Toronto Ontario to a mother who was a teacher, and a musiscian father.</p>
 		</div>
 	</div>
 	<div class="foresthill">
@@ -241,9 +243,9 @@ vehemently disagree</h2>
 		</blockquote>
 	</div>
 </div>
-	<script type="text/javascript" src="bower_components/zepto/zepto.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="bower_components/gsap/src/minified/TweenMax.min.js"></script>
-	<script type="text/javascript" src="bower_components/gsap/src/minified/TimelineMax.min.js"></script>
+	<script type="text/javascript" src="js/skrollr-master/dist/skrollr.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

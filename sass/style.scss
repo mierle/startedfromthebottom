@@ -57,9 +57,11 @@ body {
 	padding: 30px 0 0 0;
 	h3 {
 		color: $pink;
+		position: absolute;
+		margin-left: -170px;
 	}
 	h2 {
-		margin: 100px 0 180px 0;
+		margin: 300px 0 180px 0;
 	}
 	.icecream {
 		padding: 40px 0 100px 0;
@@ -81,15 +83,26 @@ body {
 	}
 	.purple {
 		background-color: $pink;
-		padding: 0 0 100px 0;
+		padding: 50px 0 100px 0;
 		.babydrake {
-			img {
-				margin-top: -100px;
+			.circle {
+				height: 400px;
+				border-radius: 99%;
+				width: 400px;
+				margin: 100px auto;
+				overflow: hidden;
+				background-size: 120% 100%;
+				background-position: 0% 0%;
+				background-image: url(img/lildrakebg.jpg);
+				img {
+					margin-top: 150px;
+					width: 60%;
+				}
 			}
 		}
 		p {
 			@include wrap;
-			margin-top: 60px;
+			margin-top: 100px;
 		}
 	}
 }
