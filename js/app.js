@@ -12,13 +12,12 @@ $(document).ready(function() {
 		}
 	);
 	TweenMax.to(
-		$('.droplet.second'),
-		2,
+		$('.zah'),
+		3,
 		{
-			"backgroundPosition": "0px 70px",
-			"opacity": 0,
+			"rotationY": "360deg",
 			"repeat": -1,
-			"delay": 0.5
+			"ease": Linear.easeNone
 		}
 	);
 	var years = {};

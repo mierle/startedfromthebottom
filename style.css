@@ -485,6 +485,15 @@ nav {
   padding: 100px 20px 100px 20px;
   background-color: #282629;
   color: #fff; }
+  .miami .halo {
+    background-image: url("img/loop-bottom.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+    .miami .halo .haloup {
+      position: absolute;
+      z-index: 9;
+      margin-top: 112px;
+      margin-left: -41px; }
   .miami h3 {
     color: #ff9800; }
   .miami h2 {

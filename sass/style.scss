@@ -474,6 +474,17 @@ nav {
 	@include pad();
 	background-color: $grey0;
 	color: #fff;
+	.halo {
+		background-image: url('img/loop-bottom.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		.haloup {
+			position: absolute;
+			z-index: 9;
+			margin-top: 112px;
+			margin-left: -41px;
+		}
+	}
 	h3 {
 		color: #ff9800;
 	}
