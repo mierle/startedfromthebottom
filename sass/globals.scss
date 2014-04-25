@@ -52,6 +52,14 @@ table {
          url('fonts/agaramondpro-regular.ttf') format('truetype'),
          url('fonts/agaramondpro-regular.svg#AdobeGaramondProRegular') format('svg');
 }
+@font-face {
+    font-family: 'Memphis';
+    src: url('fonts/memphisltstd-bold.eot');
+    src: url('fonts/memphisltstd-bold.eot') format('embedded-opentype'),
+         url('fonts/memphisltstd-bold.woff') format('woff'),
+         url('fonts/memphisltstd-bold.ttf') format('truetype'),
+         url('fonts/memphisltstd-bold.svg#MemphisLight-Bold') format('svg');
+}
 
 body {
 	font-family: 'Adobe Garamond Pro';

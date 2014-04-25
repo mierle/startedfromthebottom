@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MemphisLTStdBold';
+    src: url('memphisltstd-bold.eot');
+    src: url('memphisltstd-bold.eot') format('embedded-opentype'),
+         url('memphisltstd-bold.woff') format('woff'),
+         url('memphisltstd-bold.ttf') format('truetype'),
+         url('memphisltstd-bold.svg#MemphisLTStdBold') format('svg');
+}
