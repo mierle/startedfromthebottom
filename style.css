@@ -108,7 +108,20 @@ body {
 /* =============================================================================
    Main Site Styles
    ========================================================================== */
-nav {
+.small {
+  opacity: 1;
+  position: fixed;
+  top: -1px;
+  left: 10%;
+  background-color: white;
+  padding: 1em; }
+
+.big {
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  -mstransition: all 250ms;
+  transition: all 250ms;
+  opacity: 0;
   font-family: 'Memphis';
   position: fixed;
   top: 0px;
@@ -117,9 +130,9 @@ nav {
   z-index: 9999;
   background-color: white;
   overflow: hidden; }
-  nav img {
+  .big img {
     display: inline-block; }
-  nav .year {
+  .big .year {
     -webkit-transition: all 250ms;
     -moz-transition: all 250ms;
     -mstransition: all 250ms;
@@ -129,7 +142,7 @@ nav {
     display: inline-block;
     text-align: center;
     color: #c5b170; }
-    nav .year figure {
+    .big .year figure {
       -webkit-transition: all 250ms;
       -moz-transition: all 250ms;
       -mstransition: all 250ms;
@@ -140,26 +153,27 @@ nav {
       border: 1px solid #999;
       border-radius: 99%;
       margin-top: 25px; }
-    nav .year span {
+    .big .year span {
       opacity: 0;
-      background-image: url("img/navarrow.png");
       background-position: center 95%;
       background-repeat: no-repeat;
       padding-bottom: 15px;
       position: relative; }
-    nav .year:hover figure {
+    .big .year:hover figure {
       margin-bottom: 7.5px;
       margin-top: 0px; }
-    nav .year:hover span {
+    .big .year:hover span {
       display: block;
       opacity: 1;
       background: none; }
-    nav .year.active figure {
+    .big .year.active figure {
       margin-bottom: 7.5px;
       margin-top: 0px; }
-    nav .year.active span {
+    .big .year.active span {
       display: block;
       opacity: 1; }
+  .big:hover {
+    opacity: 1; }
 
 .wrap {
   max-width: 800px;
