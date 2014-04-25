@@ -518,6 +518,13 @@ nav {
   padding: 0 0 100px 0; }
   .lintroller .leg {
     width: 100%; }
+  .lintroller .speckles {
+    background-image: url("img/lint/speckles.png");
+    position: absolute;
+    left: 20%;
+    margin-top: 100px;
+    width: 800px;
+    height: 300px; }
   .lintroller .roller {
     background-image: url("img/lint/roller.png");
     background-position: -15px 0px;
