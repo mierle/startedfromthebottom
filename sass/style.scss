@@ -511,6 +511,26 @@ nav {
 .lintroller {
 	background-image: url('img/lint/floor.png');
 	padding: 0 0 100px 0;
+	.leg {
+		width: 100%;
+	}
+	.roller {
+		background-image: url('img/lint/roller.png');
+		background-position: -15px 0px;
+		height: 720px;
+		width: 147px;
+		position: absolute;
+		z-index: 999;
+		margin-top: 100px;
+		left: 20%;
+		overflow: hidden;
+		div {
+			background-image: url('img/lint/lint.png');
+			width: 300%;
+			margin: 18px auto;
+			height: 300px;
+		}
+	}
 }
 
 footer {

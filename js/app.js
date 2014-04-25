@@ -22,13 +22,14 @@ $(document).ready(function() {
 		}
 	);
 	var years = {};
-	var currYear = '';
+	var currYear = '1986';
 	$('[data-year]').each(function(index, el) {
 		var offset = $(el).offset()
 		years[offset.top] = $(el).data('year');
 	});
 	var s = skrollr.init({
 	    render: function(data) {
+	    	console.log(data.curTop);
 	        for (var i in years) {
 	        	if (i < data.curTop + 250) {
 	        		currYear = years[i];
