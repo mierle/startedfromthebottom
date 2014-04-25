@@ -21,6 +21,11 @@ $(document).ready(function() {
 			"delay": 0.5
 		}
 	);
-	var s = skrollr.init();
+	var s = skrollr.init({
+	    render: function(data) {
+	        //Log the current scroll position.
+	        console.log(data.curTop);
+	    }
+	});
 
 });

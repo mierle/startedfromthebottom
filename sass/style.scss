@@ -198,10 +198,54 @@ body {
 
 }
 .dice {
-	background-image: url('img/tile.png');
+	background-image: url('img/dice/tile.png');
 	background-color: #bfab93;
-	padding: 500px 0 100px 0;
+	padding: 0 0 100px 0;
 	color: $grey1;
+	overflow: hidden;
+	.prop {
+		left: 50%;
+		margin-left: -250px;
+		position: absolute;
+		&.feet {
+			background-image: url('img/dice/feet.png');
+			background-repeat: no-repeat;
+			height: 290px;
+			width: 500px;
+			z-index: 10;
+		}
+		&.dice1 {
+			background-image: url('img/dice/dice.png');
+			background-repeat: no-repeat;
+			height: 110px;
+			width: 140px;
+			z-index: 10;
+			margin-left: 230px;
+			margin-top: 250px;
+		}
+		&.dice2 {
+			background-image: url('img/dice/dice.png');
+			background-repeat: no-repeat;
+			height: 110px;
+			width: 140px;
+			z-index: 10;
+			margin-left: 230px;
+			margin-top: 250px;
+			left: 20%;
+			margin-top: 400px;
+		}
+		&.bills {
+			left: 55%;
+			margin-top: 70px;
+		}
+		&.watch {
+			left: 60%;
+			margin-top: 200px;
+		}
+	}
+	.miniwrap {
+		padding-top: 500px;
+	}
 	button {
 		color: $grey1;
 		border-color: $grey1;
@@ -262,6 +306,9 @@ body {
 }
 .recorddeal {
 	@include pad();
+	background-image: url('img/bills.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	background-color: $grey0;
 	color: #fff;
 	h3 {
@@ -326,9 +373,28 @@ body {
 	}
 }
 .strippers {
-	@include pad();
 	background-color: #4d4d4d;
 	color: #fff;
+	background-image: url(img/strippers/stripper-bills1.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	.stripper1 {
+		position: absolute;
+		left: 50%;
+	}
+	.stripper2 {
+		left: 0px;
+		width: auto;
+		margin-top: 250px;
+		position: absolute;
+	}
+	.bills {
+		width: 100%;
+	}
+	.wrap {
+		@include pad();
+		padding-top: 50px;
+	}
 	h2 {
 		color: #8f9c7d;
 	}
