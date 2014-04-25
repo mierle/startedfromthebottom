@@ -115,8 +115,11 @@ nav {
   left: 0px;
   width: 100%;
   z-index: 9999;
-  background-color: white; }
-  nav .year, nav img {
+  background-color: white;
+  overflow: hidden; }
+  nav img {
+    display: inline-block; }
+  nav .year {
     -webkit-transition: all 250ms;
     -moz-transition: all 250ms;
     -mstransition: all 250ms;
@@ -126,28 +129,37 @@ nav {
     display: inline-block;
     text-align: center;
     color: #c5b170; }
-    nav .year figure, nav img figure {
+    nav .year figure {
       -webkit-transition: all 250ms;
       -moz-transition: all 250ms;
       -mstransition: all 250ms;
       transition: all 250ms;
       margin: 0 auto;
-      margin-bottom: 7.5px;
       height: 10px;
       width: 10px;
       border: 1px solid #999;
-      border-radius: 99%; }
-    nav .year span, nav img span {
-      display: none;
+      border-radius: 99%;
+      margin-top: 25px; }
+    nav .year span {
+      opacity: 0;
       background-image: url("img/navarrow.png");
       background-position: center 95%;
-      background-repeat: no-repeat; }
-    nav .year:hover figure, nav img:hover figure {
-      border: 1px solid #c5b170;
-      background-color: #c5b170; }
-    nav .year.active span, nav img.active span {
+      background-repeat: no-repeat;
+      padding-bottom: 15px;
+      position: relative; }
+    nav .year:hover figure {
+      margin-bottom: 7.5px;
+      margin-top: 0px; }
+    nav .year:hover span {
       display: block;
-      padding-bottom: 15px; }
+      opacity: 1;
+      background: none; }
+    nav .year.active figure {
+      margin-bottom: 7.5px;
+      margin-top: 0px; }
+    nav .year.active span {
+      display: block;
+      opacity: 1; }
 
 .wrap {
   max-width: 800px;

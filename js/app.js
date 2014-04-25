@@ -21,11 +21,31 @@ $(document).ready(function() {
 			"delay": 0.5
 		}
 	);
+	var years = {};
+	var currYear = '';
+	$('[data-year]').each(function(index, el) {
+		var offset = $(el).offset()
+		years[offset.top] = $(el).data('year');
+	});
 	var s = skrollr.init({
 	    render: function(data) {
-	        //Log the current scroll position.
-	        console.log(data.curTop);
+	        for (var i in years) {
+	        	if (i < data.curTop + 250) {
+	        		currYear = years[i];
+	        	} else {
+	        		break;
+	        	}
+	        }
+	        $('nav .year').removeClass('active');
+	        $('nav .year.' + currYear).addClass('active');
 	    }
+	});
+	$('nav .year').on('click', function(e) {
+		var currYear = $(e.currentTarget).find('span').html();
+		var offset = $('[data-year="' + currYear + '"]').offset();
+		s.animateTo(offset.top, {
+			duration: 1250
+		});
 	});
 
 });
