@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){TweenMax.to($(".droplet.first"),1.5,{backgroundPosition:"0px 70px",opacity:0,repeat:-1});TweenMax.to($(".droplet.second"),2,{backgroundPosition:"0px 70px",opacity:0,repeat:-1,delay:.5});var e=skrollr.init()});

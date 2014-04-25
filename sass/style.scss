@@ -133,6 +133,9 @@ body {
 	h2 {
 		color: $gold;
 	} 
+	button {
+		border: 1px solid $gold;
+	}
 }
 .degrassi {
 	background-color: $bluegrey;
@@ -143,6 +146,9 @@ body {
 	}
 	h3 {
 		color: #9767b7;
+	}
+	a {
+		color: #878787;
 	}
 	.denimbutt {
 		background-image: url('img/degrassi.png');
@@ -192,10 +198,14 @@ body {
 
 }
 .dice {
-	background-image: url('img/shoes.png');
-	background-repeat: no-repeat;
+	background-image: url('img/tile.png');
+	background-color: #bfab93;
 	padding: 500px 0 100px 0;
 	color: $grey1;
+	button {
+		color: $grey1;
+		border-color: $grey1;
+	}
 }
 .littles {
 	background-color: $grey1;
@@ -231,7 +241,6 @@ body {
 	background-color: $grey0;
 	p {
 		margin: 100px 0 0 0;
-		max-width: 500px;
 	}
 	h3 {
 		color: #7d3b45;
