@@ -119,12 +119,27 @@ body {
   top: -1px;
   left: 10%;
   background-color: #555;
-  padding: 1em; }
+  padding: 1em;
+  z-index: 99; }
+  .small .menu {
+    font-size: 10px;
+    color: white;
+    padding-top: 0.5em;
+    text-transform: uppercase;
+    display: none; }
+    .small .menu img {
+      width: 15px;
+      opacity: .8; }
+  @media screen and (max-width: 1024px) {
+    .small img {
+      width: 25px; }
+    .small .menu {
+      display: block; } }
 
 .big {
   -webkit-transition: all 250ms;
   -moz-transition: all 250ms;
-  -mstransition: all 250ms;
+  -ms-transition: all 250ms;
   transition: all 250ms;
   opacity: 0;
   font-family: 'Memphis';
@@ -132,7 +147,7 @@ body {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 9999;
+  z-index: 100;
   background-color: white;
   overflow: hidden; }
   .big img {
@@ -157,7 +172,8 @@ body {
       width: 10px;
       border: 1px solid #999;
       border-radius: 99%;
-      margin-top: 25px; }
+      margin-top: 25px;
+      margin-bottom: 10px; }
     .big .year span {
       opacity: 0;
       background-position: center 95%;
@@ -165,20 +181,40 @@ body {
       padding-bottom: 15px;
       position: relative; }
     .big .year:hover figure {
-      margin-bottom: 7.5px;
-      margin-top: 0px; }
+      background-color: #888; }
     .big .year:hover span {
       display: block;
       opacity: 1;
       background: none; }
     .big .year.active figure {
-      margin-bottom: 7.5px;
-      margin-top: 0px; }
+      background-color: #888; }
     .big .year.active span {
       display: block;
       opacity: 1; }
   .big:hover {
     opacity: 1; }
+  .big.active {
+    display: block;
+    opacity: 1; }
+  @media screen and (max-width: 1024px) {
+    .big {
+      width: 100%;
+      height: 100%;
+      display: none;
+      padding: 1em;
+      z-index: 99999999;
+      font-size: 18px; }
+      .big .year {
+        padding: .25em;
+        display: block; }
+        .big .year figure {
+          display: none; }
+        .big .year span {
+          display: block;
+          opacity: 1;
+          padding-bottom: 12.5px; }
+        .big .year.active {
+          color: #555; } }
 
 .wrap {
   max-width: 800px;
@@ -298,6 +334,10 @@ body {
     background-attachment: fixed;
     background-position: center;
     height: 600px; }
+    @media screen and (max-width: 1024px) {
+      .degrassi .denimbutt {
+        background-attachment: scroll;
+        background-position: center center; } }
   .degrassi img {
     margin-top: -100px; }
 
@@ -322,6 +362,9 @@ body {
     background-attachment: fixed;
     background-position: center bottom;
     height: 700px; }
+    @media screen and (max-width: 1024px) {
+      .wayne .waynesface {
+        background-attachment: scroll; } }
   .wayne h3 {
     color: #c42c0e;
     margin-top: 100px; }
@@ -513,6 +556,11 @@ body {
       z-index: 9;
       margin-top: 112px;
       margin-left: -41px; }
+    @media screen and (max-width: 1024px) {
+      .miami .halo {
+        background: none; }
+        .miami .halo .haloup {
+          display: none; } }
   .miami h3 {
     color: #ff9800; }
   .miami h2 {
