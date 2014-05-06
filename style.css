@@ -60,19 +60,25 @@ body {
   font-family: 'Adobe Garamond Pro'; }
 
 h2 {
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 60px;
+  line-height: 1.2;
   font-weight: normal;
   margin: 60px 0 60px 0; }
+  @media screen and (max-width: 570px) {
+    h2 {
+      font-size: 40px; } }
 
 h3 {
-  font-size: 170px;
+  font-size: 150px;
   margin: 30px 0 30px 0;
   font-weight: normal; }
+  @media screen and (max-width: 570px) {
+    h3 {
+      font-size: 80px; } }
 
 h4 {
   font-family: 'Bodoni Seventytwo Itc P OT';
-  font-size: 20px;
+  font-size: 30px;
   margin: 30px 0 30px 0; }
 
 p {
@@ -80,10 +86,17 @@ p {
   line-height: 1.4;
   text-align: left;
   margin-bottom: 26px; }
+  @media screen and (max-width: 570px) {
+    p {
+      font-size: 22px; } }
 
 blockquote {
-  font-size: 50px;
+  font-size: 40px;
+  line-height: 1.2;
   margin: 50px auto; }
+  @media screen and (max-width: 570px) {
+    blockquote {
+      font-size: 30px; } }
 
 button {
   padding: 26px;
@@ -229,6 +242,16 @@ body {
   background-color: #333333; }
   .cover .eyebrows {
     padding: 3% 0em 10em 0em; }
+    .cover .eyebrows .introimg {
+      background-image: url("img/eyebrows.png");
+      background-repeat: no-repeat;
+      width: 412px;
+      height: 360px;
+      margin: 0 auto; }
+      @media screen and (max-width: 570px) {
+        .cover .eyebrows .introimg {
+          background-size: 90%;
+          background-position: center center; } }
   .cover .arrow {
     -webkit-transition: opacity 250ms;
     -moz-transition: opacity 250ms;
@@ -291,6 +314,9 @@ body {
       max-width: 600px;
       margin: 0 auto;
       margin-top: 100px; }
+      @media screen and (max-width: 570px) {
+        .birth .purple p {
+          padding: 20px 10px 20px 10px; } }
 
 .foresthill {
   background-color: #f2f2f2;
@@ -301,6 +327,9 @@ body {
   background-color: #923133;
   color: white;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .hockey {
+      padding: 30px 10px 30px 10px; } }
   .hockey img {
     margin-top: -250px;
     height: 275px; }
@@ -311,6 +340,9 @@ body {
   background-color: #434658;
   color: white;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .barmitzvah {
+      padding: 30px 10px 30px 10px; } }
   .barmitzvah h3 {
     color: gray; }
   .barmitzvah h2 {
@@ -345,6 +377,9 @@ body {
   background-color: #000;
   color: white;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .mixtape {
+      padding: 30px 10px 30px 10px; } }
   .mixtape h2 {
     color: gray; }
   .mixtape h3 {
@@ -422,6 +457,9 @@ body {
   background-color: #333333;
   color: white;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .littles {
+      padding: 30px 10px 30px 10px; } }
   .littles h3 {
     color: gray; }
   .littles h2 {
@@ -431,11 +469,19 @@ body {
   background-color: #c7b299;
   color: #333333;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .fired {
+      padding: 30px 10px 30px 10px; } }
+  .fired blockquote {
+    max-width: 520px; }
 
 .littles {
   background-color: #333333;
   color: white;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .littles {
+      padding: 30px 10px 30px 10px; } }
   .littles h3 {
     color: gray; }
   .littles h2 {
@@ -445,6 +491,9 @@ body {
   padding: 100px 20px 100px 20px;
   color: #fff;
   background-color: #282629; }
+  @media screen and (max-width: 570px) {
+    .ladieslovedrake {
+      padding: 30px 10px 30px 10px; } }
   .ladieslovedrake p {
     margin: 100px 0 0 0; }
   .ladieslovedrake h3 {
@@ -456,10 +505,15 @@ body {
   background-color: #333333;
   color: white;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .hot97 {
+      padding: 30px 10px 30px 10px; } }
   .hot97 h3 {
     color: gray; }
   .hot97 h2 {
     color: #c6b26d; }
+  .hot97 a, .hot97 a:visited {
+    color: #979292; }
 
 .recorddeal {
   padding: 100px 20px 100px 20px;
@@ -468,6 +522,9 @@ body {
   background-repeat: no-repeat;
   background-color: #282629;
   color: #fff; }
+  @media screen and (max-width: 570px) {
+    .recorddeal {
+      padding: 30px 10px 30px 10px; } }
   .recorddeal h3 {
     color: gray; }
   .recorddeal h2 {
@@ -479,7 +536,11 @@ body {
   background-image: url("img/canada-goose.png");
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 100px 0 0 0; }
+  padding: 100px 0 40px 0; }
+  @media screen and (max-width: 960px) {
+    .canadagoose {
+      background-size: 120%;
+      padding: 30px 0 0 0; } }
   .canadagoose h3 {
     color: gray; }
   .canadagoose h2 {
@@ -492,6 +553,9 @@ body {
   padding: 100px 0 300px 0;
   background-color: #282629;
   color: #fff; }
+  @media screen and (max-width: 570px) {
+    .kentucky {
+      padding: 30px 10px 30px 10px; } }
   .kentucky h3 {
     color: gray; }
   .kentucky h2 {
@@ -501,17 +565,23 @@ body {
   background-color: #a83257;
   color: #fff;
   padding: 100px 20px 100px 20px; }
+  @media screen and (max-width: 570px) {
+    .kevin {
+      padding: 30px 10px 30px 10px; } }
   .kevin img {
     margin-top: -300px; }
   .kevin h3 {
     color: #f6d0b3; }
-  .kevin h2 {
+  .kevin h2, .kevin a, .kevin a:visited {
     color: #e39db3; }
 
 .aaliyah {
   padding: 100px 20px 100px 20px;
   background-color: #282629;
   color: #fff; }
+  @media screen and (max-width: 570px) {
+    .aaliyah {
+      padding: 30px 10px 30px 10px; } }
   .aaliyah h3 {
     color: gray; }
   .aaliyah h2 {
@@ -536,17 +606,28 @@ body {
   .strippers .wrap {
     padding: 100px 20px 100px 20px;
     padding-top: 50px; }
+    @media screen and (max-width: 570px) {
+      .strippers .wrap {
+        padding: 30px 10px 30px 10px; } }
+    @media screen and (max-width: 570px) {
+      .strippers .wrap {
+        margin-top: 300px; } }
   .strippers h2 {
     color: #8f9c7d; }
   .strippers h3 {
     color: gray; }
   .strippers h4 {
     color: #c6b26d; }
+  .strippers a, .strippers a:visited {
+    color: gray; }
 
 .miami {
   padding: 100px 20px 100px 20px;
   background-color: #282629;
   color: #fff; }
+  @media screen and (max-width: 570px) {
+    .miami {
+      padding: 30px 10px 30px 10px; } }
   .miami .halo {
     background-image: url("img/loop-bottom.png");
     background-repeat: no-repeat;
@@ -570,6 +651,9 @@ body {
   padding: 100px 20px 100px 20px;
   background-color: #000;
   color: #fff; }
+  @media screen and (max-width: 570px) {
+    .raptors {
+      padding: 30px 10px 30px 10px; } }
   .raptors h2 {
     color: #c6b26d; }
   .raptors h3 {
@@ -579,6 +663,9 @@ body {
   padding: 100px 20px 100px 20px;
   background-color: #333333;
   color: #fff; }
+  @media screen and (max-width: 570px) {
+    .manziel {
+      padding: 30px 10px 30px 10px; } }
   .manziel h2 {
     color: #f2f2f2; }
 
@@ -586,6 +673,9 @@ body {
   padding: 100px 20px 100px 20px;
   background-color: #f2f2f2;
   color: #333333; }
+  @media screen and (max-width: 570px) {
+    .espn {
+      padding: 30px 10px 30px 10px; } }
   .espn blockquote {
     color: #b50002; }
 
@@ -617,6 +707,54 @@ body {
       margin: 18px auto;
       height: 300px; }
 
+.teams {
+  background-color: #282629;
+  color: #808080;
+  padding: 50px 10px 50px 10px; }
+  .teams .container {
+    max-width: 1100px;
+    margin: 0 auto; }
+  .teams p {
+    margin: 0 auto; }
+  .teams .col {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #363636; }
+    .teams .col:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 960px) {
+      .teams .col {
+        display: block;
+        float: left;
+        margin-right: 4.82916%;
+        width: 65.05695%;
+        margin: 0 auto; }
+        .teams .col:last-child {
+          margin-right: 0; } }
+    .teams .col .logo {
+      background-color: #454545; }
+    .teams .col h5 {
+      font-size: 21px;
+      margin: 30px 0 30px 0;
+      color: #a8a869; }
+    .teams .col h2 {
+      margin: 40px 0 30px 0;
+      font-size: 28px; }
+
+.conclusion {
+  padding: 100px 20px 100px 20px;
+  color: #fff;
+  background-color: #333; }
+  @media screen and (max-width: 570px) {
+    .conclusion {
+      padding: 30px 10px 30px 10px; } }
+  .conclusion h3 {
+    font-size: 100px; }
+
 footer {
   background-color: #4d4d4d;
   color: #b3b3b3;
@@ -626,20 +764,45 @@ footer {
     margin: 0 auto; }
   footer a {
     color: #b3b3b3; }
+  footer .colmid img {
+    margin: -100px auto;
+    display: block; }
+    @media screen and (max-width: 570px) {
+      footer .colmid img {
+        margin: 0 auto; } }
+  footer .colmid .email {
+    margin: 104px 0 30px 0; }
+    @media screen and (max-width: 570px) {
+      footer .colmid .email {
+        margin: 0px; } }
+  footer .colright, footer .colleft {
+    padding: 30px; }
   footer .colleft {
+    text-align: left; }
+    @media screen and (max-width: 570px) {
+      footer .colleft {
+        text-align: center; } }
+  footer .column {
+    display: block;
     float: left;
-    height: 200px;
-    padding: 20px; }
-  footer .colmid {
-    float: left; }
-    footer .colmid img {
-      margin: -50px auto;
-      display: block; }
-    footer .colmid .email {
-      margin: 30px 0 30px 0; }
-  footer .colright {
-    float: right;
-    padding: 20px; }
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    *zoom: 1;
+    max-width: 68.75em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 30px 0; }
+    footer .column:last-child {
+      margin-right: 0; }
+    footer .column:before, footer .column:after {
+      content: " ";
+      display: table; }
+    footer .column:after {
+      clear: both; }
+    @media screen and (max-width: 570px) {
+      footer .column {
+        width: 100%;
+        padding: 10px 10px 10px 10px; } }
 
 .disclaimer {
   background-color: #666666;

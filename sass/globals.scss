@@ -1,3 +1,20 @@
+// Colours //
+
+ $grey0: #282629;
+ $grey1: #333333;
+ $grey3: #808080;
+ $grey6: #f2f2f2;
+ $gold: #c6b26d;
+ $white: #fff;
+ $bluegrey: #282629;
+ $beige: #c7b299;
+
+// Responsive Breakpoints //
+
+$large:       new-breakpoint(max-width 1100px 6);
+$medium:      new-breakpoint(max-width 960px 6);
+$small:       new-breakpoint(max-width 570px 2);
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,23 +83,26 @@ body {
 }
 
 h2 {
-	font-size: 70px;
-	line-height: 1.1;
+	font-size: 60px;
+	line-height: 1.2;
 	font-weight: normal;
-	margin: 60px 0 60px 0
+	margin: 60px 0 60px 0;
+	@include media($small){
+		font-size: 40px;
+	}
 }
 
 h3 {
-	font-size: 170px;
+	font-size: 150px;
 	margin: 30px 0 30px 0;
 	font-weight: normal;
-	// @include screen and (max-width: $small) {
-	// 	font-size: 60px
-	// }
+	@include media($small){
+		font-size: 80px;
+	}
 }
 h4 {
 	font-family: 'Bodoni Seventytwo Itc P OT';
-	font-size: 20px;
+	font-size: 30px;
 	margin: 30px 0 30px 0;
 }
 
@@ -91,10 +111,17 @@ p {
 	line-height: 1.4;
 	text-align: left;
 	margin-bottom: 26px;
+	@include media($small){
+		font-size: 22px;
+	}
 }
 blockquote {
-	font-size: 50px;
+	font-size: 40px;
+	line-height: 1.2;
 	margin: 50px auto;
+	@include media($small){
+		font-size: 30px;
+	}
 }
 button {
 	padding: 26px;
@@ -130,21 +157,12 @@ button.light {
 }
 @mixin pad {
 	padding: 100px 20px 100px 20px;
+	@include media($small){
+		padding: 30px 10px 30px 10px;
+	}
+}
+@mixin mopad {
+	padding: 20px 10px 20px 10px;
 }
 
-// Colours //
 
- $grey0: #282629;
- $grey1: #333333;
- $grey3: #808080;
- $grey6: #f2f2f2;
- $gold: #c6b26d;
- $white: #fff;
- $bluegrey: #282629;
- $beige: #c7b299;
-
-// Responsive Breakpoints //
-
-$large:       new-breakpoint(max-width 1100px 6);
-$medium:       new-breakpoint(max-width 960px 6);
-$small:       new-breakpoint(max-width 570px 2);
