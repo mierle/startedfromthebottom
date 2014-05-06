@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Bodoni SevntytwoItc P OT';
+  src: url('BodoniSeventytwoItcPOT Bol.eot'); /* IE9 Compat Modes */
+  src: url('BodoniSeventytwoItcPOT Bol.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BodoniSeventytwoItcPOT Bol.woff') format('woff'), /* Modern Browsers */
+       url('BodoniSeventytwoItcPOT Bol.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BodoniSeventytwoItcPOT Bol.svg#4ec38e08a959bafbfede102b8635ff8f') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Bodoni SevntytwoItc P OT';
+  src: url('BodoniSeventytwoItcPOT BolIta.eot'); /* IE9 Compat Modes */
+  src: url('BodoniSeventytwoItcPOT BolIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BodoniSeventytwoItcPOT BolIta.woff') format('woff'), /* Modern Browsers */
+       url('BodoniSeventytwoItcPOT BolIta.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BodoniSeventytwoItcPOT BolIta.svg#20520a310808e246236fc861200e6af9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Bodoni SevntytwoItc P OT';
+  src: url('BodoniSeventytwoItcPOT Boo.eot'); /* IE9 Compat Modes */
+  src: url('BodoniSeventytwoItcPOT Boo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BodoniSeventytwoItcPOT Boo.woff') format('woff'), /* Modern Browsers */
+       url('BodoniSeventytwoItcPOT Boo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BodoniSeventytwoItcPOT Boo.svg#b1287c01696c5eec0259d6c8e68fa6d2') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Bodoni SevntytwoItc P OT';
+  src: url('BodoniSeventytwoItcPOT BooIta.eot'); /* IE9 Compat Modes */
+  src: url('BodoniSeventytwoItcPOT BooIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BodoniSeventytwoItcPOT BooIta.woff') format('woff'), /* Modern Browsers */
+       url('BodoniSeventytwoItcPOT BooIta.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BodoniSeventytwoItcPOT BooIta.svg#6bdf8727db1ef20d44ce60d324f18777') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

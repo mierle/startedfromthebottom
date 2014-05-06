@@ -47,6 +47,15 @@ table {
   border-spacing: 0; }
 
 @font-face {
+  font-family: 'Bodoni SevntytwoItc P OT';
+  src: url("fonts/BodoniSeventytwoItcPOT BolIta.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/BodoniSeventytwoItcPOT BolIta.eot?#iefix") format("embedded-opentype"), url("fonts/BodoniSeventytwoItcPOT BolIta.woff") format("woff"), url("fonts/BodoniSeventytwoItcPOT BolIta.ttf") format("truetype"), url("fonts/BodoniSeventytwoItcPOT BolIta.svg#20520a310808e246236fc861200e6af9") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
   font-family: 'AdobeGaramondProRegular';
   src: url("fonts/agaramondpro-regular.eot");
   src: url("fonts/agaramondpro-regular.eot") format("embedded-opentype"), url("fonts/agaramondpro-regular.woff") format("woff"), url("fonts/agaramondpro-regular.ttf") format("truetype"), url("fonts/agaramondpro-regular.svg#AdobeGaramondProRegular") format("svg"); }
@@ -719,7 +728,7 @@ body {
     height: 720px;
     width: 147px;
     position: absolute;
-    z-index: 999;
+    z-index: 5;
     margin-top: 100px;
     left: 20%;
     overflow: hidden; }
