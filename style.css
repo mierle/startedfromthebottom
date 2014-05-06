@@ -278,6 +278,9 @@ body {
     color: #d39cc6;
     position: absolute;
     margin-left: -170px; }
+    @media screen and (max-width: 570px) {
+      .birth h3 {
+        left: 70% !important; } }
   .birth h2 {
     margin: 300px 0 180px 0; }
   .birth .icecream {
@@ -667,7 +670,26 @@ body {
     .manziel {
       padding: 30px 10px 30px 10px; } }
   .manziel h2 {
-    color: #f2f2f2; }
+    color: #c6b26d; }
+  .manziel .fist {
+    position: absolute;
+    height: 80%;
+    width: 52.5%;
+    background-repeat: no-repeat;
+    background-size: 85% 100%;
+    margin-top: -110px; }
+    .manziel .fist.fist1 {
+      left: -5%;
+      background-image: url("img/fist1.png"); }
+    .manziel .fist.fist2 {
+      right: 0%;
+      background-image: url("img/fist2.png"); }
+  .manziel .copy {
+    margin-top: 450px; }
+  .manziel p {
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 50px; }
 
 .espn {
   padding: 100px 20px 100px 20px;

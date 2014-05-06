@@ -205,6 +205,9 @@ body {
 		color: $pink;
 		position: absolute;
 		margin-left: -170px;
+		@include media($small){
+			left: 70% !important;
+		}
 	}
 	h2 {
 		margin: 300px 0 180px 0;
@@ -623,7 +626,31 @@ body {
 	background-color: $grey1;
 	color: #fff;
 	h2 {
-		color: $grey6;
+		color: #c6b26d;
+	}
+	.fist {
+		position: absolute;
+		height: 80%;
+		width: 52.5%;
+		background-repeat: no-repeat;
+		background-size: 85% 100%;
+		margin-top: -110px;
+		&.fist1 {
+			left: -5%;
+			background-image: url('img/fist1.png');
+		}
+		&.fist2 {
+			right: 0%;
+			background-image: url('img/fist2.png');
+		}
+	}
+	.copy {
+		margin-top: 450px;
+	}
+	p {
+		width: 75%;
+		margin: 0px auto;
+		margin-top: 50px;
 	}
 }
 .espn {
