@@ -16,6 +16,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	display: block;
 	text-align: center;
+	overflow-x: hidden;
 }
 
 /* =============================================================================
@@ -155,7 +156,8 @@ body {
 }
 .miniwrap {
 	max-width: 500px;
-	margin: 0 auto;
+	margin: 0px auto;
+	display: block;
 }
 .cover {
 	background-color: $grey1;
@@ -170,6 +172,7 @@ body {
 			@include media($small){
 				background-size: 90%;
 				background-position: center center;
+				width: 95%;
 			}
 		}
 	}
@@ -205,12 +208,16 @@ body {
 		color: $pink;
 		position: absolute;
 		margin-left: -170px;
+		left: 50%;
 		@include media($small){
 			left: 70% !important;
 		}
 	}
 	h2 {
 		margin: 300px 0 180px 0;
+		@include media($small){
+			margin: 220px 0 180px 0;
+		}
 	}
 	.icecream {
 		padding: 40px 0 100px 0;
@@ -247,6 +254,10 @@ body {
 					margin-top: 150px;
 					width: 60%;
 				}
+				@include media($small){
+					width: 95%;
+					height: 350px;
+				}
 			}
 		}
 		p {
@@ -279,6 +290,9 @@ body {
 	background-color: #434658;
 	color: $white;
 	@include pad;
+	.kippah {
+		width: 90%;
+	}
 	h3 {
 		color: $grey3;
 	}
@@ -371,6 +385,11 @@ body {
 			height: 290px;
 			width: 500px;
 			z-index: 10;
+			@include media($small){
+				width: 100%;
+				background-size: 85%;
+				background-position: 80% 0%;
+			}
 		}
 		&.dice1 {
 			background-image: url('img/dice/dice.png');
@@ -380,6 +399,9 @@ body {
 			z-index: 10;
 			margin-left: 230px;
 			margin-top: 250px;
+			@include media($medium){
+				left: -40%;
+			}
 		}
 		&.dice2 {
 			background-image: url('img/dice/dice.png');
@@ -391,6 +413,9 @@ body {
 			margin-top: 250px;
 			left: 20%;
 			margin-top: 400px;
+			@include media($medium){
+				left: -20%;
+			}
 		}
 		&.bills {
 			left: 55%;
@@ -444,6 +469,9 @@ body {
 	@include pad();
 	color: #fff;
 	background-color: $grey0;
+	img {
+		width: 100%;
+	}
 	p {
 		margin: 100px 0 0 0;
 	}
@@ -489,10 +517,6 @@ body {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	padding: 100px 0 40px 0;
-	@include media($medium){
-		background-size: 120%;
-		padding: 30px 0 0 0;
-	}
 	h3 {
 		color: $grey3;
 	}
@@ -502,6 +526,10 @@ body {
 	p.last {
 		padding-bottom: 100px;
 		margin-bottom: 0px;
+	}
+	@include media($medium){
+		background-size: 120%;
+		padding: 30px 0 0 0;
 	}
 }
 .kentucky {
@@ -524,6 +552,7 @@ body {
 	@include pad();
 	img {
 		margin-top: -300px;
+		width: 80%;
 	}
 	h3 {
 		color: #f6d0b3;
@@ -552,6 +581,9 @@ body {
 	.stripper1 {
 		position: absolute;
 		left: 50%;
+		@include media($small){
+			left: 20%;
+		}
 	}
 	.stripper2 {
 		left: 0px;
@@ -638,14 +670,27 @@ body {
 		&.fist1 {
 			left: -5%;
 			background-image: url('img/fist1.png');
+			@include media($small){
+				left: 0%;
+			}
 		}
 		&.fist2 {
 			right: 0%;
 			background-image: url('img/fist2.png');
+			@include media($small){
+				right: 0%;
+			}
+		}
+		@include media($small){
+			height: 30%;
+			margin-top: -50px;
 		}
 	}
 	.copy {
 		margin-top: 450px;
+		@include media($small){
+			margin-top: 200px;
+		}
 	}
 	p {
 		width: 75%;
@@ -674,6 +719,9 @@ body {
 		margin-top: 100px;
 		width: 800px;
 		height: 300px;
+		@include media($small){
+			display: none;
+		}
 	}
 	.roller {
 		background-image: url('img/lint/roller.png');
@@ -691,6 +739,13 @@ body {
 			margin: 18px auto;
 			height: 300px;
 		}
+		@include media($small){
+			height: 310px;
+			width: 300px;
+			background-size: 25%;
+			background-repeat: no-repeat;
+			margin-top: 20px;
+		}
 	}
 }
 .teams {
@@ -706,10 +761,6 @@ body {
 	}
 	.col {
 		@include span-columns(3);
-		@include media($medium) {
-			@include span-columns(4);
-			margin: 0 auto;
-		}
 		margin-right: 10px;
 		margin-bottom: 10px;
 		background-color: #363636;
@@ -725,6 +776,9 @@ body {
 			margin: 40px 0 30px 0;
 			font-size: 28px;
 		}
+		@include media($medium) {
+			width: 100%;
+		}
 	}
 }
 .conclusion {
@@ -733,6 +787,11 @@ body {
 	background-color: #333;
 	h3 {
 		font-size: 100px;
+	}
+	@include media($medium) {
+		img {
+			width: 80%;
+		}
 	}
 }
 

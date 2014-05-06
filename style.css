@@ -130,7 +130,8 @@ button.light {
 body {
   -webkit-font-smoothing: antialiased;
   display: block;
-  text-align: center; }
+  text-align: center;
+  overflow-x: hidden; }
 
 /* =============================================================================
    Main Site Styles
@@ -245,7 +246,8 @@ body {
 
 .miniwrap {
   max-width: 500px;
-  margin: 0 auto; }
+  margin: 0px auto;
+  display: block; }
 
 .cover {
   background-color: #333333; }
@@ -260,7 +262,8 @@ body {
       @media screen and (max-width: 570px) {
         .cover .eyebrows .introimg {
           background-size: 90%;
-          background-position: center center; } }
+          background-position: center center;
+          width: 95%; } }
   .cover .arrow {
     -webkit-transition: opacity 250ms;
     -moz-transition: opacity 250ms;
@@ -286,12 +289,16 @@ body {
   .birth h3 {
     color: #d39cc6;
     position: absolute;
-    margin-left: -170px; }
+    margin-left: -170px;
+    left: 50%; }
     @media screen and (max-width: 570px) {
       .birth h3 {
         left: 70% !important; } }
   .birth h2 {
     margin: 300px 0 180px 0; }
+    @media screen and (max-width: 570px) {
+      .birth h2 {
+        margin: 220px 0 180px 0; } }
   .birth .icecream {
     padding: 40px 0 100px 0; }
   .birth .droplet {
@@ -322,6 +329,10 @@ body {
       .birth .purple .babydrake .circle img {
         margin-top: 150px;
         width: 60%; }
+      @media screen and (max-width: 570px) {
+        .birth .purple .babydrake .circle {
+          width: 95%;
+          height: 350px; } }
     .birth .purple p {
       max-width: 600px;
       margin: 0 auto;
@@ -355,6 +366,8 @@ body {
   @media screen and (max-width: 570px) {
     .barmitzvah {
       padding: 30px 10px 30px 10px; } }
+  .barmitzvah .kippah {
+    width: 90%; }
   .barmitzvah h3 {
     color: gray; }
   .barmitzvah h2 {
@@ -435,6 +448,11 @@ body {
       height: 290px;
       width: 500px;
       z-index: 10; }
+      @media screen and (max-width: 570px) {
+        .dice .prop.feet {
+          width: 100%;
+          background-size: 85%;
+          background-position: 80% 0%; } }
     .dice .prop.dice1 {
       background-image: url("img/dice/dice.png");
       background-repeat: no-repeat;
@@ -443,6 +461,9 @@ body {
       z-index: 10;
       margin-left: 230px;
       margin-top: 250px; }
+      @media screen and (max-width: 960px) {
+        .dice .prop.dice1 {
+          left: -40%; } }
     .dice .prop.dice2 {
       background-image: url("img/dice/dice.png");
       background-repeat: no-repeat;
@@ -453,6 +474,9 @@ body {
       margin-top: 250px;
       left: 20%;
       margin-top: 400px; }
+      @media screen and (max-width: 960px) {
+        .dice .prop.dice2 {
+          left: -20%; } }
     .dice .prop.bills {
       left: 55%;
       margin-top: 70px; }
@@ -506,6 +530,8 @@ body {
   @media screen and (max-width: 570px) {
     .ladieslovedrake {
       padding: 30px 10px 30px 10px; } }
+  .ladieslovedrake img {
+    width: 100%; }
   .ladieslovedrake p {
     margin: 100px 0 0 0; }
   .ladieslovedrake h3 {
@@ -549,10 +575,6 @@ body {
   background-position: center bottom;
   background-repeat: no-repeat;
   padding: 100px 0 40px 0; }
-  @media screen and (max-width: 960px) {
-    .canadagoose {
-      background-size: 120%;
-      padding: 30px 0 0 0; } }
   .canadagoose h3 {
     color: gray; }
   .canadagoose h2 {
@@ -560,6 +582,10 @@ body {
   .canadagoose p.last {
     padding-bottom: 100px;
     margin-bottom: 0px; }
+  @media screen and (max-width: 960px) {
+    .canadagoose {
+      background-size: 120%;
+      padding: 30px 0 0 0; } }
 
 .kentucky {
   padding: 100px 0 300px 0;
@@ -581,7 +607,8 @@ body {
     .kevin {
       padding: 30px 10px 30px 10px; } }
   .kevin img {
-    margin-top: -300px; }
+    margin-top: -300px;
+    width: 80%; }
   .kevin h3 {
     color: #f6d0b3; }
   .kevin h2, .kevin a, .kevin a:visited {
@@ -608,6 +635,9 @@ body {
   .strippers .stripper1 {
     position: absolute;
     left: 50%; }
+    @media screen and (max-width: 570px) {
+      .strippers .stripper1 {
+        left: 20%; } }
   .strippers .stripper2 {
     left: 0px;
     width: auto;
@@ -690,11 +720,24 @@ body {
     .manziel .fist.fist1 {
       left: -5%;
       background-image: url("img/fist1.png"); }
+      @media screen and (max-width: 570px) {
+        .manziel .fist.fist1 {
+          left: 0%; } }
     .manziel .fist.fist2 {
       right: 0%;
       background-image: url("img/fist2.png"); }
+      @media screen and (max-width: 570px) {
+        .manziel .fist.fist2 {
+          right: 0%; } }
+    @media screen and (max-width: 570px) {
+      .manziel .fist {
+        height: 30%;
+        margin-top: -50px; } }
   .manziel .copy {
     margin-top: 450px; }
+    @media screen and (max-width: 570px) {
+      .manziel .copy {
+        margin-top: 200px; } }
   .manziel p {
     width: 75%;
     margin: 0px auto;
@@ -722,6 +765,9 @@ body {
     margin-top: 100px;
     width: 800px;
     height: 300px; }
+    @media screen and (max-width: 570px) {
+      .lintroller .speckles {
+        display: none; } }
   .lintroller .roller {
     background-image: url("img/lint/roller.png");
     background-position: -15px 0px;
@@ -737,6 +783,13 @@ body {
       width: 300%;
       margin: 18px auto;
       height: 300px; }
+    @media screen and (max-width: 570px) {
+      .lintroller .roller {
+        height: 310px;
+        width: 300px;
+        background-size: 25%;
+        background-repeat: no-repeat;
+        margin-top: 20px; } }
 
 .teams {
   background-color: #282629;
@@ -757,15 +810,6 @@ body {
     background-color: #363636; }
     .teams .col:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 960px) {
-      .teams .col {
-        display: block;
-        float: left;
-        margin-right: 4.82916%;
-        width: 65.05695%;
-        margin: 0 auto; }
-        .teams .col:last-child {
-          margin-right: 0; } }
     .teams .col .logo {
       background-color: #454545; }
     .teams .col h5 {
@@ -775,6 +819,9 @@ body {
     .teams .col h2 {
       margin: 40px 0 30px 0;
       font-size: 28px; }
+    @media screen and (max-width: 960px) {
+      .teams .col {
+        width: 100%; } }
 
 .conclusion {
   padding: 100px 20px 100px 20px;
@@ -785,6 +832,9 @@ body {
       padding: 30px 10px 30px 10px; } }
   .conclusion h3 {
     font-size: 100px; }
+  @media screen and (max-width: 960px) {
+    .conclusion img {
+      width: 80%; } }
 
 footer {
   background-color: #4d4d4d;
