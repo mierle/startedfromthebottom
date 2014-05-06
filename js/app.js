@@ -65,4 +65,28 @@ $(document).ready(function() {
 		});
 	});
 
+    if (720 <= $(window).height()) {
+        $('video').height($(window).height());
+        $('video').width('auto');
+    } else {
+        $('video').width($(window).width());
+        $('video').height('auto');
+    }
+    if (1280 <= $(window).width()) {
+        $('video').width($(window).width());
+        $('video').height('auto');
+    } else {
+        $('video').height($(window).height());
+        $('video').width('auto');
+    }
+
+	var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/g);
+	if(! isMobile) {
+	    // User-Agent is not IPhone, IPod, IPad, Android or BlackBerry
+	    $('video').html('<video loop="1" muted autoplay="autoplay" poster="http://therapup.net/wp-content/uploads/2013/04/Puff.gif">'
+	    + '<source src="video.webm" type="video/webm">'+' <source src="video.m4v">'+' <source src="video/dancing.mp4" type="video/mp4">' + '</video>');
+	} else {
+	    $('video').html('<img src="http://therapup.net/wp-content/uploads/2013/04/Puff.gif">');
+	}
+
 });
