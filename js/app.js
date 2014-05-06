@@ -65,20 +65,10 @@ $(document).ready(function() {
 		});
 	});
 
-    if (720 <= $(window).height()) {
-        $('video').height($(window).height());
-        $('video').width('auto');
-    } else {
-        $('video').width($(window).width());
-        $('video').height('auto');
-    }
-    if (1280 <= $(window).width()) {
-        $('video').width($(window).width());
-        $('video').height('auto');
-    } else {
-        $('video').height($(window).height());
-        $('video').width('auto');
-    }
+	$(window).resize(function() {
+		$('video').width($(window).width());
+	});
+    $('video').width($(window).width());
 
 	var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/g);
 	if(! isMobile) {
