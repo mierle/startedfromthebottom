@@ -550,15 +550,17 @@ body {
 	background-color: #a83257;
 	color: #fff;
 	@include pad();
-	img {
-		margin-top: -300px;
-		width: 80%;
-	}
 	h3 {
 		color: #f6d0b3;
 	}
 	h2, a, a:visited {
 		color: #e39db3;
+	}
+	@include media($small){
+		img {
+			margin-top: -300px;
+			width: 80%;
+		}
 	}
 }
 .aaliyah {

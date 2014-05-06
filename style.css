@@ -606,13 +606,14 @@ body {
   @media screen and (max-width: 570px) {
     .kevin {
       padding: 30px 10px 30px 10px; } }
-  .kevin img {
-    margin-top: -300px;
-    width: 80%; }
   .kevin h3 {
     color: #f6d0b3; }
   .kevin h2, .kevin a, .kevin a:visited {
     color: #e39db3; }
+  @media screen and (max-width: 570px) {
+    .kevin img {
+      margin-top: -300px;
+      width: 80%; } }
 
 .aaliyah {
   padding: 100px 20px 100px 20px;
