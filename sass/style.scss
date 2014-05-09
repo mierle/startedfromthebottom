@@ -464,7 +464,7 @@ body {
 
 }
 .fired {
-	background-color: $beige;
+	background-color: #fbff8b;
 	color: $grey1;
 	@include pad();
 	blockquote {
@@ -715,7 +715,34 @@ body {
 		width: 75%;
 		margin: 0px auto;
 		margin-top: 50px;
+		a, a:visited {
+		color: $grey3;
+		}
 	}
+}
+.shoppers {
+	.banner-top {
+		background-image: url('img/shoppers.jpg');
+		background-position: cover;
+		background-repeat: no-repeat;
+		padding: 150px 10px 100px 10px;
+		.inner {
+			max-width: 800px;
+			text-align: center;
+			margin: 0 auto;
+			h3 {
+				color:#a51231;
+			}
+		}
+	}
+	.banner-bottom {
+		background-image: url('img/nets.jpg');
+		background-position: cover;
+		background-repeat: no-repeat;
+		padding: 350px 10px 100px 10px;
+	}
+	background-color: #6b6b6b;
+	color: #fff;
 }
 .espn {
 	@include pad();
@@ -807,10 +834,22 @@ body {
 	h3 {
 		font-size: 100px;
 	}
+	h2 {
+		font-size: 36px;
+		color: $gold;
+	}
 	@include media($medium) {
 		img {
 			width: 80%;
 		}
+	}
+	p.dash {
+		text-align: center;
+		color: $gold;
+	}
+	p.artists {
+		font-size: 18px;
+		font-style: italic;
 	}
 }
 

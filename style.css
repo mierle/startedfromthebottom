@@ -517,7 +517,7 @@ body {
     color: #c6b26d; }
 
 .fired {
-  background-color: #c7b299;
+  background-color: #fbff8b;
   color: #333333;
   padding: 100px 20px 100px 20px; }
   @media screen and (max-width: 570px) {
@@ -758,6 +758,28 @@ body {
     width: 75%;
     margin: 0px auto;
     margin-top: 50px; }
+    .manziel p a, .manziel p a:visited {
+      color: gray; }
+
+.shoppers {
+  background-color: #6b6b6b;
+  color: #fff; }
+  .shoppers .banner-top {
+    background-image: url("img/shoppers.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 150px 10px 100px 10px; }
+    .shoppers .banner-top .inner {
+      max-width: 800px;
+      text-align: center;
+      margin: 0 auto; }
+      .shoppers .banner-top .inner h3 {
+        color: #a51231; }
+  .shoppers .banner-bottom {
+    background-image: url("img/nets.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 350px 10px 100px 10px; }
 
 .espn {
   padding: 100px 20px 100px 20px;
@@ -848,9 +870,18 @@ body {
       padding: 30px 10px 30px 10px; } }
   .conclusion h3 {
     font-size: 100px; }
+  .conclusion h2 {
+    font-size: 36px;
+    color: #c6b26d; }
   @media screen and (max-width: 960px) {
     .conclusion img {
       width: 80%; } }
+  .conclusion p.dash {
+    text-align: center;
+    color: #c6b26d; }
+  .conclusion p.artists {
+    font-size: 18px;
+    font-style: italic; }
 
 footer {
   background-color: #4d4d4d;
