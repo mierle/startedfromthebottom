@@ -793,7 +793,8 @@ body {
 
 .lintroller {
   background-image: url("img/lint/floor.png");
-  padding: 0 0 100px 0; }
+  padding: 0 0 100px 0;
+  color: #333333; }
   .lintroller .leg {
     width: 100%; }
   .lintroller .speckles {
