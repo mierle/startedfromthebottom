@@ -293,7 +293,7 @@ body {
     left: 50%; }
     @media screen and (max-width: 570px) {
       .birth h3 {
-        left: 70% !important; } }
+        left: 75% !important; } }
   .birth h2 {
     margin: 300px 0 180px 0; }
     @media screen and (max-width: 570px) {
@@ -332,14 +332,14 @@ body {
       @media screen and (max-width: 570px) {
         .birth .purple .babydrake .circle {
           width: 95%;
-          height: 350px; } }
+          height: 300px; } }
     .birth .purple p {
       max-width: 600px;
       margin: 0 auto;
       margin-top: 100px; }
       @media screen and (max-width: 570px) {
         .birth .purple p {
-          padding: 20px 10px 20px 10px; } }
+          padding: 30px; } }
 
 .foresthill {
   background-color: #f2f2f2;
@@ -377,6 +377,12 @@ body {
     background-color: #434658; }
   .videos.degrassi {
     background-color: #fbff8b; }
+  @media screen and (max-width: 570px) {
+    .videos h2 {
+      position: static;
+      margin: auto;
+      padding: 20px;
+      left: auto; } }
 
 .barmitzvah {
   background-color: #434658;
@@ -392,7 +398,7 @@ body {
   .barmitzvah h2 {
     color: #c6b26d; }
   .barmitzvah button {
-    border: 1px solid #c6b26d; }
+    border: 1px solid #282629; }
 
 .degrassi {
   background-color: #282629;
@@ -482,7 +488,7 @@ body {
       margin-top: 250px; }
       @media screen and (max-width: 960px) {
         .dice .prop.dice1 {
-          left: -40%; } }
+          left: -30%; } }
     .dice .prop.dice2 {
       background-image: url("img/dice/dice.png");
       background-repeat: no-repeat;
@@ -495,7 +501,7 @@ body {
       margin-top: 400px; }
       @media screen and (max-width: 960px) {
         .dice .prop.dice2 {
-          left: -20%; } }
+          left: -40%; } }
     .dice .prop.bills {
       left: 55%;
       margin-top: 70px; }
@@ -503,6 +509,7 @@ body {
       left: 60%;
       margin-top: 200px; }
   .dice .miniwrap {
+    padding: 30px;
     padding-top: 500px; }
   .dice button {
     color: #333333;
@@ -586,6 +593,9 @@ body {
     color: gray; }
   .recorddeal h2 {
     color: #c6b26d; }
+  @media screen and (max-width: 570px) {
+    .recorddeal {
+      padding: 30px; } }
 
 .canadagoose {
   background-color: #333333;
@@ -593,14 +603,13 @@ body {
   background-image: url("img/canada-goose.png");
   background-position: center bottom;
   background-repeat: no-repeat;
-  padding: 100px 0 40px 0; }
+  padding: 100px 0 100px 0; }
   .canadagoose h3 {
     color: gray; }
   .canadagoose h2 {
     color: #c6b26d; }
-  .canadagoose p.last {
-    padding-bottom: 100px;
-    margin-bottom: 0px; }
+  .canadagoose .miniwrap {
+    padding-bottom: 15px; }
   @media screen and (max-width: 960px) {
     .canadagoose {
       background-size: 120%;
@@ -631,7 +640,7 @@ body {
     color: #e39db3; }
   @media screen and (max-width: 570px) {
     .kevin img {
-      margin-top: -300px;
+      margin-top: 0px !important;
       width: 80%; } }
 
 .aaliyah {
@@ -666,11 +675,8 @@ body {
   .strippers .bills {
     width: 100%; }
   .strippers .wrap {
-    padding: 100px 20px 100px 20px;
+    padding: 30px;
     padding-top: 50px; }
-    @media screen and (max-width: 570px) {
-      .strippers .wrap {
-        padding: 30px 10px 30px 10px; } }
     @media screen and (max-width: 570px) {
       .strippers .wrap {
         margin-top: 300px; } }
@@ -706,6 +712,9 @@ body {
         background: none; }
         .miami .halo .haloup {
           display: none; } }
+    @media screen and (max-width: 570px) {
+      .miami .halo {
+        display: none; } }
   .miami h3 {
     color: #ff9800; }
   .miami h2 {
@@ -718,6 +727,8 @@ body {
   @media screen and (max-width: 570px) {
     .raptors {
       padding: 30px 10px 30px 10px; } }
+  .raptors img {
+    width: 80%; }
   .raptors h2 {
     color: #c6b26d; }
   .raptors h3 {
@@ -734,7 +745,7 @@ body {
     color: #c6b26d; }
   .manziel .fist {
     position: absolute;
-    height: 80%;
+    height: 700px;
     width: 52.5%;
     background-repeat: no-repeat;
     background-size: 85% 100%;
@@ -753,15 +764,21 @@ body {
           right: 0%; } }
     @media screen and (max-width: 570px) {
       .manziel .fist {
-        height: 30%;
+        height: 150px;
         margin-top: -50px; } }
+    @media screen and (max-width: 1024px) {
+      .manziel .fist {
+        height: 200px;
+        margin-top: -60px; } }
   .manziel .copy {
-    margin-top: 450px; }
+    margin-top: 450px;
+    width: 100%;
+    padding-top: 1em; }
     @media screen and (max-width: 570px) {
       .manziel .copy {
         margin-top: 200px; } }
   .manziel p {
-    width: 75%;
+    width: 100%;
     margin: 0px auto;
     margin-top: 50px; }
     .manziel p a, .manziel p a:visited {
@@ -787,9 +804,16 @@ body {
     background-image: url("img/nets.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     padding: 350px 10px 100px 10px; }
+    @media screen and (max-width: 570px) {
+      .shoppers .banner-bottom {
+        padding: 200px 10px 100px 10px; } }
   .shoppers .wrap {
     padding: 5em 0em 5em 0em; }
+  @media screen and (max-width: 570px) {
+    .shoppers .wrap {
+      padding: 30px; } }
 
 .espn {
   padding: 100px 20px 100px 20px;
@@ -831,6 +855,9 @@ body {
       width: 300%;
       margin: 18px auto;
       height: 300px; }
+      @media screen and (max-width: 570px) {
+        .lintroller .roller div {
+          display: none; } }
     @media screen and (max-width: 570px) {
       .lintroller .roller {
         height: 310px;
