@@ -45,6 +45,7 @@ $(document).ready(function() {
 
   var s = skrollr.init({
     render: function(data) {
+      console.log(data.curTop);
       for (var i in years) {
         if (i < data.curTop + 250) {
           currYear = years[i];
@@ -54,6 +55,12 @@ $(document).ready(function() {
       }
       $('nav .year').removeClass('active');
       $('nav .year.' + currYear).addClass('active');
+    },
+    constants: {
+      birth: function() {
+        var off = $('.birth').offset();
+        return off.top;
+      }
     }
   });
 
