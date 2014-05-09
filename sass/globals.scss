@@ -63,11 +63,11 @@ table {
 
 @font-face {
   font-family: 'Bodoni SevntytwoItc P OT';
-  src: url('fonts/BodoniSeventytwoItcPOT BolIta.eot'); /* IE9 Compat Modes */
-  src: url('fonts/BodoniSeventytwoItcPOT BolIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/BodoniSeventytwoItcPOT BolIta.woff') format('woff'), /* Modern Browsers */
-       url('fonts/BodoniSeventytwoItcPOT BolIta.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/BodoniSeventytwoItcPOT BolIta.svg#20520a310808e246236fc861200e6af9') format('svg'); /* Legacy iOS */
+  src: url('fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.svg#20520a310808e246236fc861200e6af9') format('svg'); /* Legacy iOS */
        
   font-style:   normal;
   font-weight:  400;
@@ -112,7 +112,7 @@ h3 {
 	}
 }
 h4 {
-	font-family: 'Bodoni Seventytwo Itc P OT';
+	font-family: 'Bodoni SevntytwoItc P OT';
 	font-size: 30px;
 	margin: 30px 0 30px 0;
 }

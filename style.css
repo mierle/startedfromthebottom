@@ -48,9 +48,9 @@ table {
 
 @font-face {
   font-family: 'Bodoni SevntytwoItc P OT';
-  src: url("fonts/BodoniSeventytwoItcPOT BolIta.eot");
+  src: url("fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.eot");
   /* IE9 Compat Modes */
-  src: url("fonts/BodoniSeventytwoItcPOT BolIta.eot?#iefix") format("embedded-opentype"), url("fonts/BodoniSeventytwoItcPOT BolIta.woff") format("woff"), url("fonts/BodoniSeventytwoItcPOT BolIta.ttf") format("truetype"), url("fonts/BodoniSeventytwoItcPOT BolIta.svg#20520a310808e246236fc861200e6af9") format("svg");
+  src: url("fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.eot?#iefix") format("embedded-opentype"), url("fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.woff") format("woff"), url("fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.ttf") format("truetype"), url("fonts/Bodoni/BodoniSeventytwoItcPOT BolIta.svg#20520a310808e246236fc861200e6af9") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -86,7 +86,7 @@ h3 {
       font-size: 80px; } }
 
 h4 {
-  font-family: 'Bodoni Seventytwo Itc P OT';
+  font-family: 'Bodoni SevntytwoItc P OT';
   font-size: 30px;
   margin: 30px 0 30px 0; }
 
@@ -275,7 +275,7 @@ body {
   .cover .title {
     padding: 70px 0 70px 0; }
     .cover .title p {
-      font-family: 'Bodoni Seventytwo Itc P OT';
+      font-family: 'Bodoni SevntytwoItc P OT';
       color: #c6b26d;
       text-align: center;
       font-size: 30px; }
@@ -607,16 +607,21 @@ body {
       padding: 30px 0 0 0; } }
 
 .kentucky {
-  padding: 100px 0 300px 0;
+  padding: 0px 0px 300px 0;
   background-color: #282629;
   color: #fff; }
+  .kentucky .lockerroom {
+    background-image: url("img/kentucky.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 150px 0px 150px 0px; }
   @media screen and (max-width: 570px) {
     .kentucky {
       padding: 30px 10px 30px 10px; } }
   .kentucky h3 {
-    color: gray; }
+    color: #fff; }
   .kentucky h2 {
-    color: #c6b26d; }
+    color: gray; }
 
 .kevin {
   background-color: #a83257;
@@ -792,12 +797,15 @@ body {
     padding: 5em 0em 5em 0em; }
 
 .espn {
-  padding: 100px 20px 100px 20px;
   background-color: #f2f2f2;
-  color: #333333; }
-  @media screen and (max-width: 570px) {
-    .espn {
-      padding: 30px 10px 30px 10px; } }
+  color: #333333;
+  padding-bottom: 50px; }
+  .espn .firsttake {
+    background-image: url("img/espn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 10px 100px 10px;
+    color: gray; }
   .espn blockquote {
     color: #b50002; }
 
