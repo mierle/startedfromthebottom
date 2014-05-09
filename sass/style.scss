@@ -302,6 +302,12 @@ body {
 		margin-left: -400px;
 		color: white;
 	}
+	&.dancing {
+		background-color: #434658;
+	}
+	&.degrassi {
+		background-color: #fbff8b;
+	}
 }
 .barmitzvah {
 	background-color: #434658;
@@ -637,6 +643,9 @@ body {
 	@include pad();
 	background-color: $grey0;
 	color: #fff;
+	a {
+		color: gray;
+	}
 	.halo {
 		background-image: url('img/loop-bottom.png');
 		background-repeat: no-repeat;
@@ -723,7 +732,7 @@ body {
 .shoppers {
 	.banner-top {
 		background-image: url('img/shoppers.jpg');
-		background-position: cover;
+		background-size: cover;
 		background-repeat: no-repeat;
 		padding: 150px 10px 100px 10px;
 		.inner {
@@ -735,11 +744,17 @@ body {
 			}
 		}
 	}
+	a {
+		color: darkgray;
+	}
 	.banner-bottom {
 		background-image: url('img/nets.jpg');
-		background-position: cover;
+		background-size: cover;
 		background-repeat: no-repeat;
 		padding: 350px 10px 100px 10px;
+	}
+	.wrap {
+		padding: 5em 0em 5em 0em;
 	}
 	background-color: #6b6b6b;
 	color: #fff;
@@ -754,8 +769,8 @@ body {
 }
 .lintroller {
 	background-image: url('img/lint/floor.png');
-	padding: 0 0 100px 0;
 	color: $grey1;
+	padding: 0px 0px 100px 0;
 	.leg {
 		width: 100%;
 	}
@@ -804,7 +819,9 @@ body {
 		margin: 0 auto;
 	}
 	p {
-		margin: 0 auto;
+		margin: 0px auto;
+		padding: 1em;
+		text-align: center;
 	}
 	.col {
 		@include span-columns(3);
@@ -849,8 +866,16 @@ body {
 		color: $gold;
 	}
 	p.artists {
-		font-size: 18px;
+		text-align: center;
 		font-style: italic;
+	}
+	ul {
+		text-align: center;
+		li {
+			padding: 5px 2px;
+			display: inline-block;
+			line-height: 1em;
+		}
 	}
 }
 
