@@ -189,7 +189,7 @@ body {
 	.title {
 		padding: 70px 0 70px 0;
 		p {
-			font-family: 'Bodoni Seventytwo Itc P OT';
+			font-family: 'Bodoni SevntytwoItc P OT';
 			color: $gold;
 			text-align: center;
 			font-size: 30px;
@@ -567,17 +567,23 @@ body {
 	}
 }
 .kentucky {
-	padding: 100px 0 300px 0;
+	.lockerroom{
+		background-image: url('img/kentucky.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		padding: 150px 0px 150px 0px;
+	}
+	padding: 0px 0px 300px 0;
 	background-color: $grey0;
 	color: #fff;
 	@include media($small){
 		padding: 30px 10px 30px 10px;
 	}
 	h3 {
-		color: $grey3;
+		color: #fff;
 	}
 	h2 {
-		color: $gold;
+		color: $grey3;
 	}
 }
 .kevin {
@@ -792,15 +798,23 @@ body {
 	}
 }
 .espn {
-	@include pad();
+	.firsttake {
+		background-image: url('img/espn.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 100px 10px 100px 10px;
+		color: $grey3;
+	}
 	background-color: $grey6;
 	color: $grey1;
+	padding-bottom: 50px;
 	blockquote {
 		color: #b50002;
 	}
 }
 .lintroller {
 	background-image: url('img/lint/floor.png');
+	color: $grey1;
 	padding: 0px 0px 100px 0;
 	.leg {
 		width: 100%;
