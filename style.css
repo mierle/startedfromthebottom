@@ -373,6 +373,10 @@ body {
     left: 50%;
     margin-left: -400px;
     color: white; }
+  .videos.dancing {
+    background-color: #434658; }
+  .videos.degrassi {
+    background-color: #fbff8b; }
 
 .barmitzvah {
   background-color: #434658;
