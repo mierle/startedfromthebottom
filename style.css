@@ -690,6 +690,8 @@ body {
   @media screen and (max-width: 570px) {
     .miami {
       padding: 30px 10px 30px 10px; } }
+  .miami a {
+    color: gray; }
   .miami .halo {
     background-image: url("img/loop-bottom.png");
     background-repeat: no-repeat;
@@ -770,7 +772,7 @@ body {
   color: #fff; }
   .shoppers .banner-top {
     background-image: url("img/shoppers.jpg");
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 150px 10px 100px 10px; }
     .shoppers .banner-top .inner {
@@ -779,11 +781,15 @@ body {
       margin: 0 auto; }
       .shoppers .banner-top .inner h3 {
         color: #a51231; }
+  .shoppers a {
+    color: darkgray; }
   .shoppers .banner-bottom {
     background-image: url("img/nets.jpg");
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 350px 10px 100px 10px; }
+  .shoppers .wrap {
+    padding: 5em 0em 5em 0em; }
 
 .espn {
   padding: 100px 20px 100px 20px;
@@ -797,7 +803,7 @@ body {
 
 .lintroller {
   background-image: url("img/lint/floor.png");
-  padding: 0 0 100px 0; }
+  padding: 0px 0px 100px 0; }
   .lintroller .leg {
     width: 100%; }
   .lintroller .speckles {
@@ -841,7 +847,9 @@ body {
     max-width: 1100px;
     margin: 0 auto; }
   .teams p {
-    margin: 0 auto; }
+    margin: 0px auto;
+    padding: 1em;
+    text-align: center; }
   .teams .col {
     display: block;
     float: left;
@@ -884,8 +892,14 @@ body {
     text-align: center;
     color: #c6b26d; }
   .conclusion p.artists {
-    font-size: 18px;
+    text-align: center;
     font-style: italic; }
+  .conclusion ul {
+    text-align: center; }
+    .conclusion ul li {
+      padding: 5px 2px;
+      display: inline-block;
+      line-height: 1em; }
 
 footer {
   background-color: #4d4d4d;

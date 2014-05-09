@@ -18,6 +18,15 @@ $(document).ready(function() {
     }
   );
   TweenMax.to(
+    $('.hug'),
+    0.75,
+    {
+      "transform": "scale(1.05)",
+      "repeat": -1,
+      "yoyo": true
+    }
+  );
+  TweenMax.to(
     $('.zah'),
     3,
     {
