@@ -88,6 +88,16 @@ table {
          url('fonts/memphisltstd-bold.ttf') format('truetype'),
          url('fonts/memphisltstd-bold.svg#MemphisLight-Bold') format('svg');
 }
+@font-face {
+    font-family: 'MemphisLTStdLight';
+    src: url('fonts/memphisltstd-light.eot');
+    src: url('fonts/memphisltstd-light.eot') format('embedded-opentype'),
+         url('fonts/memphisltstd-light.woff') format('woff'),
+         url('fonts/memphisltstd-light.ttf') format('truetype'),
+         url('fonts/memphisltstd-light.svg#MemphisLTStdLight') format('svg');
+}
+
+
 
 body {
 	font-family: 'Adobe Garamond Pro';
@@ -135,15 +145,18 @@ blockquote {
 	}
 }
 button {
-	padding: 26px;
+	padding: 26px 26px 22px 26px;
 	background-color: transparent;
 	border: 1px solid #b3b3b3;
-	border-radius: 14px;
-	font-size: 18px;
-	font-family: 'Georgia', 'serif';
+	border-radius: 34px;
+	font-size: 14px;
+	font-family: 'MemphisLTStdLight', 'serif';
 	cursor: pointer;
 	color: #fff;
 	margin: 50px 0 30px 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	&:hover {
 		background: rgba(250,250,250,0.2);
 	}

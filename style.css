@@ -65,6 +65,11 @@ table {
   src: url("fonts/memphisltstd-bold.eot");
   src: url("fonts/memphisltstd-bold.eot") format("embedded-opentype"), url("fonts/memphisltstd-bold.woff") format("woff"), url("fonts/memphisltstd-bold.ttf") format("truetype"), url("fonts/memphisltstd-bold.svg#MemphisLight-Bold") format("svg"); }
 
+@font-face {
+  font-family: 'MemphisLTStdLight';
+  src: url("fonts/memphisltstd-light.eot");
+  src: url("fonts/memphisltstd-light.eot") format("embedded-opentype"), url("fonts/memphisltstd-light.woff") format("woff"), url("fonts/memphisltstd-light.ttf") format("truetype"), url("fonts/memphisltstd-light.svg#MemphisLTStdLight") format("svg"); }
+
 body {
   font-family: 'Adobe Garamond Pro'; }
 
@@ -108,15 +113,18 @@ blockquote {
       font-size: 30px; } }
 
 button {
-  padding: 26px;
+  padding: 26px 26px 22px 26px;
   background-color: transparent;
   border: 1px solid #b3b3b3;
-  border-radius: 14px;
-  font-size: 18px;
-  font-family: 'Georgia', 'serif';
+  border-radius: 34px;
+  font-size: 14px;
+  font-family: 'MemphisLTStdLight', 'serif';
   cursor: pointer;
   color: #fff;
-  margin: 50px 0 30px 0; }
+  margin: 50px 0 30px 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
   button:hover {
     background: rgba(250, 250, 250, 0.2); }
 
@@ -315,7 +323,7 @@ body {
       background-repeat: no-repeat;
       margin: 75px 40px; }
   .birth .purple {
-    background-color: #d39cc6;
+    background-color: #AD80A3;
     padding: 50px 0 100px 0; }
     .birth .purple .babydrake .circle {
       height: 400px;
@@ -533,10 +541,7 @@ body {
 .fired {
   background-color: #fbff8b;
   color: #333333;
-  padding: 100px 20px 100px 20px; }
-  @media screen and (max-width: 570px) {
-    .fired {
-      padding: 30px 10px 30px 10px; } }
+  padding: 50px 20px 50px 20px; }
   .fired blockquote {
     max-width: 520px; }
 
@@ -887,12 +892,14 @@ body {
   background-color: #282629;
   color: #808080;
   padding: 50px 10px 50px 10px; }
+  .teams h2 {
+    margin: 10px 0px 0px 0px; }
   .teams .container {
     max-width: 1100px;
     margin: 0 auto; }
   .teams p {
     margin: 0px auto;
-    padding: 1em;
+    padding: 20px 20px 41px 20px;
     text-align: center; }
   .teams .col {
     display: block;
@@ -928,7 +935,8 @@ body {
     font-size: 100px; }
   .conclusion h2 {
     font-size: 36px;
-    color: #c6b26d; }
+    color: #c6b26d;
+    font-family: 'Bodoni SevntytwoItc P OT'; }
   @media screen and (max-width: 960px) {
     .conclusion img {
       width: 80%; } }
@@ -965,25 +973,12 @@ footer {
     @media screen and (max-width: 570px) {
       footer .colmid .email {
         margin: 0px; } }
-  footer .colright, footer .colleft {
-    padding: 30px; }
-  footer .colleft {
-    text-align: left; }
-    @media screen and (max-width: 570px) {
-      footer .colleft {
-        text-align: center; } }
   footer .column {
-    display: block;
-    float: left;
-    margin-right: 2.35765%;
-    width: 31.76157%;
     *zoom: 1;
     max-width: 68.75em;
     margin-left: auto;
     margin-right: auto;
     padding: 50px 0 30px 0; }
-    footer .column:last-child {
-      margin-right: 0; }
     footer .column:before, footer .column:after {
       content: " ";
       display: table; }
@@ -993,6 +988,46 @@ footer {
       footer .column {
         width: 100%;
         padding: 10px 10px 10px 10px; } }
+
+.wallpapers {
+  background-color: #1F1F1F;
+  color: #b3b3b3;
+  text-align: center;
+  padding: 50px 20px 50px 20px; }
+  .wallpapers p {
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+    font-style: italic; }
+  .wallpapers .inner-container {
+    *zoom: 1;
+    max-width: 68.75em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    margin: 0 auto; }
+    .wallpapers .inner-container:before, .wallpapers .inner-container:after {
+      content: " ";
+      display: table; }
+    .wallpapers .inner-container:after {
+      clear: both; }
+    .wallpapers .inner-container .columns {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      height: 350px;
+      border-left: 1px solid #373737; }
+      .wallpapers .inner-container .columns:last-child {
+        margin-right: 0; }
+      .wallpapers .inner-container .columns:last-child {
+        border-right: 1px solid #373737; }
+      .wallpapers .inner-container .columns a, .wallpapers .inner-container .columns a:visited {
+        display: block;
+        font-family: 'Memphis';
+        padding: 10px;
+        color: gray;
+        text-decoration: none;
+        font-size: 14px; }
 
 .disclaimer {
   background-color: #666666;
