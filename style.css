@@ -455,12 +455,11 @@ body {
     background-color: #282629;
     background-image: url("img/wayne.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center bottom;
     height: 700px; }
     @media screen and (max-width: 1024px) {
       .wayne .waynesface {
-        background-attachment: scroll; } }
+        background-attachment: scroll;
+        background-position: center bottom !important; } }
   .wayne h3 {
     color: #c42c0e;
     margin-top: 100px; }
@@ -612,6 +611,8 @@ body {
   background-position: center bottom;
   background-repeat: no-repeat;
   padding: 100px 0 100px 0; }
+  .canadagoose a {
+    color: #888; }
   .canadagoose h3 {
     color: gray; }
   .canadagoose h2 {
@@ -624,7 +625,7 @@ body {
       padding: 30px 0 0 0; } }
 
 .kentucky {
-  padding: 0px 0px 300px 0;
+  padding: 0px 0px 135px 0;
   background-color: #282629;
   color: #fff; }
   .kentucky .lockerroom {
@@ -632,9 +633,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     padding: 150px 0px 150px 0px; }
-  @media screen and (max-width: 570px) {
-    .kentucky {
-      padding: 30px 10px 30px 10px; } }
+    @media screen and (max-width: 570px) {
+      .kentucky .lockerroom {
+        padding: 15px; } }
+  .kentucky .wrap {
+    padding-top: 50px; }
   .kentucky h3 {
     color: #fff; }
   .kentucky h2 {
@@ -666,7 +669,8 @@ body {
   .aaliyah h3 {
     color: gray; }
   .aaliyah h2 {
-    color: #c6b26d; }
+    color: #c6b26d;
+    font-size: 55px; }
 
 .strippers {
   background-color: #4d4d4d;
@@ -759,38 +763,38 @@ body {
     color: #c6b26d; }
   .manziel .fist {
     position: absolute;
+    left: 50%;
     height: 700px;
-    width: 52.5%;
+    width: 44.5%;
     background-repeat: no-repeat;
-    background-size: 85% 100%;
-    margin-top: -110px; }
+    margin-top: -150px; }
     .manziel .fist.fist1 {
-      left: -5%;
-      background-image: url("img/fist1.png"); }
-      @media screen and (max-width: 570px) {
-        .manziel .fist.fist1 {
-          left: 0%; } }
+      background-image: url("img/fist1.png");
+      margin-left: -44.5%;
+      background-position: right center; }
     .manziel .fist.fist2 {
-      right: 0%;
       background-image: url("img/fist2.png"); }
-      @media screen and (max-width: 570px) {
-        .manziel .fist.fist2 {
-          right: 0%; } }
     @media screen and (max-width: 570px) {
       .manziel .fist {
-        height: 150px;
-        margin-top: -50px; } }
+        display: none; } }
     @media screen and (max-width: 1024px) {
       .manziel .fist {
-        height: 200px;
-        margin-top: -60px; } }
+        display: none; } }
+  .manziel .fistmobile {
+    width: 100%;
+    display: none; }
+    .manziel .fistmobile img {
+      width: 45%; }
+    @media screen and (max-width: 1024px) {
+      .manziel .fistmobile {
+        display: block; } }
   .manziel .copy {
-    margin-top: 450px;
+    margin-top: 550px;
     width: 100%;
     padding-top: 1em; }
-    @media screen and (max-width: 570px) {
+    @media screen and (max-width: 1024px) {
       .manziel .copy {
-        margin-top: 200px; } }
+        margin-top: 0px; } }
   .manziel p {
     width: 100%;
     margin: 0px auto;
@@ -1028,6 +1032,18 @@ footer {
         color: gray;
         text-decoration: none;
         font-size: 14px; }
+  @media screen and (max-width: 570px) {
+    .wallpapers p {
+      padding: 25px; }
+    .wallpapers .columns {
+      width: 100% !important;
+      display: block;
+      margin-top: 25px;
+      height: auto !important;
+      border-left: 0px !important;
+      border-right: 0px !important;
+      border-top: 1px solid #373737;
+      padding-top: 25px; } }
 
 .disclaimer {
   background-color: #666666;

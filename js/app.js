@@ -55,12 +55,6 @@ $(document).ready(function() {
       }
       $('nav .year').removeClass('active');
       $('nav .year.' + currYear).addClass('active');
-    },
-    constants: {
-      birth: function() {
-        var off = $('.birth').offset();
-        return off.top;
-      }
     }
   });
 
