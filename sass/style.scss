@@ -681,6 +681,9 @@ body {
 	a {
 		color: gray;
 	}
+	.zah {
+		-webkit-transform: translateZ(-150px);
+	}
 	.halo {
 		background-image: url('img/loop-bottom.png');
 		background-repeat: no-repeat;
@@ -688,8 +691,10 @@ body {
 		.haloup {
 			position: absolute;
 			z-index: 9;
+			left: 50%;
 			margin-top: 112px;
-			margin-left: -41px;
+			margin-left: -210px;
+			-webkit-transform: translateZ(0px);
 		}
 		@include media($tablet) {
 			background: none;

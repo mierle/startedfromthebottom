@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if not IE 8]><!--> <html class="no-js" xml:lang="en" lang="en"> <!--<![endif]-->
 <head>
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">

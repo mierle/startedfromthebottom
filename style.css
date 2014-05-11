@@ -721,6 +721,8 @@ body {
       padding: 30px 10px 30px 10px; } }
   .miami a {
     color: gray; }
+  .miami .zah {
+    -webkit-transform: translateZ(-150px); }
   .miami .halo {
     background-image: url("img/loop-bottom.png");
     background-repeat: no-repeat;
@@ -728,8 +730,10 @@ body {
     .miami .halo .haloup {
       position: absolute;
       z-index: 9;
+      left: 50%;
       margin-top: 112px;
-      margin-left: -41px; }
+      margin-left: -210px;
+      -webkit-transform: translateZ(0px); }
     @media screen and (max-width: 1024px) {
       .miami .halo {
         background: none; }
