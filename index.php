@@ -536,33 +536,33 @@
             </div>
         </footer>
         <section class="wallpapers">
-		<p>Download your very own Drake Brow wallpaper</p>
-		<div class="inner-container"> 
-			<div class="columns" id="iphone">
-				<img class="icon" src="img/iphone-icon.png">
-				<a href="/download/hopper/wallpapers/hopper-640x960.png">640 x 960</a>
-				<a href="/download/hopper/wallpapers/hopper-640x1136.png">640 x 1136</a>
-				<a href="/download/hopper/wallpapers/hopper-720x1280.png">720 x 1280</a>
-				<a href="/download/hopper/wallpapers/hopper-480x800.png">480 x 800</a>
-				<a href="/download/hopper/wallpapers/hopper-1080x1920.png">1080 x 1920</a>
-				<a href="/download/hopper/wallpapers/hopper-480x854.png">480 x 854</a>
-				<a href="/download/hopper/wallpapers/hopper-540x960.png">540 x 960</a>
-			</div>
-			<div class="columns" id="tablet">
-				<img class="icon" src="img/tablet-icon.png">
-				<a href="/download/hopper/wallpapers/hopper-2048x2048.png">2048 x 2048</a>
-				<a href="/download/hopper/wallpapers/hopper-2560x1600.png"> 2560 x 1600</a>
-			</div>
-			<div class="columns" id="desktop">
-				<img class="icon" src="img/desktop-icon.png">
-				<a href="/download/hopper/wallpapers/hopper-1280x800.png">1280 x 800</a>
-				<a href="/download/hopper/wallpapers/hopper-1440x900.png">1440 x 900</a>
-				<a href="/download/hopper/wallpapers/hopper-1680x1050.png">1680 x 1050</a>
-				<a href="/download/hopper/wallpapers/hopper-1920x1200.png">1920 x 1200</a>
-				<a href="/download/hopper/wallpapers/hopper-2560x1440.png">2560 x 1440</a>
-			</div>
-		</div>
-	</section>
+    		<p>Download your very own Drake Brow wallpaper</p>
+    		<div class="inner-container">
+    			<div class="columns" id="iphone">
+    				<img class="icon" src="img/iphone-icon.png">
+    				<a target="_blank" href="/download.php?file=hopper-640x960.png">640 x 960</a>
+    				<a target="_blank" href="/download.php?file=hopper-640x1136.png">640 x 1136</a>
+    				<a target="_blank" href="/download.php?file=hopper-720x1280.png">720 x 1280</a>
+    				<a target="_blank" href="/download.php?file=hopper-480x800.png">480 x 800</a>
+    				<a target="_blank" href="/download.php?file=hopper-1080x1920.png">1080 x 1920</a>
+    				<a target="_blank" href="/download.php?file=hopper-480x854.png">480 x 854</a>
+    				<a target="_blank" href="/download.php?file=hopper-540x960.png">540 x 960</a>
+    			</div>
+    			<div class="columns" id="tablet">
+    				<img class="icon" src="img/tablet-icon.png">
+    				<a target="_blank" href="/download.php?file=hopper-2048x2048.png">2048 x 2048</a>
+    				<a target="_blank" href="/download.php?file=hopper-2560x1600.png"> 2560 x 1600</a>
+    			</div>
+    			<div class="columns" id="desktop">
+    				<img class="icon" src="img/desktop-icon.png">
+    				<a target="_blank" href="/download.php?file=hopper-1280x800.png">1280 x 800</a>
+    				<a target="_blank" href="/download.php?file=hopper-1440x900.png">1440 x 900</a>
+    				<a target="_blank" href="/download.php?file=hopper-1680x1050.png">1680 x 1050</a>
+    				<a target="_blank" href="/download.php?file=hopper-1920x1200.png">1920 x 1200</a>
+    				<a target="_blank" href="/download.php?file=hopper-2560x1440.png">2560 x 1440</a>
+    			</div>
+    		</div>
+    	</section>
         <div class="disclaimer">
             This website is not associated with Drake or OVO. It's just an unofficial fansite by fans.
         </div>
@@ -570,7 +570,7 @@
         <script type="text/javascript" src="bower_components/gsap/src/minified/TweenMax.min.js"></script>
         <script type="text/javascript" src="bower_components/modernizr/modernizr.js"></script>
         <script type="text/javascript" src="js/skrollr-master/dist/skrollr.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/app.min.js"></script>
     </div>
     <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

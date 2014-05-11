@@ -45,7 +45,7 @@ $(document).ready(function() {
 
   var s = skrollr.init({
     render: function(data) {
-      console.log(data.curTop);
+      // console.log(data.curTop);
       for (var i in years) {
         if (i < data.curTop + 250) {
           currYear = years[i];
@@ -56,6 +56,12 @@ $(document).ready(function() {
       $('nav .year').removeClass('active');
       $('nav .year.' + currYear).addClass('active');
     }
+  });
+
+  // Handle download reporting
+
+  $('.wallpapers a').click(function(e) {
+    _gaq.push(['_trackEvent', 'Wallpapers', 'Download', $(e.target).html()]);
   });
 
   // Handle mobile menu clicks
