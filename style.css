@@ -139,7 +139,8 @@ body {
   -webkit-font-smoothing: antialiased;
   display: block;
   text-align: center;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #333; }
 
 /* =============================================================================
    Main Site Styles
@@ -387,7 +388,8 @@ body {
   .videos.dancing {
     background-color: #434658; }
   .videos.degrassi {
-    background-color: #fbff8b; }
+    background-color: #fbff8b;
+    padding-bottom: 0px; }
   @media screen and (max-width: 570px) {
     .videos h2 {
       position: static;
@@ -541,6 +543,9 @@ body {
   background-color: #fbff8b;
   color: #333333;
   padding: 50px 20px 50px 20px; }
+  .fired button {
+    color: #444;
+    border: 1px solid #444; }
   .fired blockquote {
     max-width: 520px; }
 
