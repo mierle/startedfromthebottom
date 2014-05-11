@@ -278,13 +278,13 @@
             </div>
         </div>
         <div class="kentucky">
-        	<div class="lockerroom">
-        		<h3>2010</h3>
-        	</div>
+            <div class="lockerroom">
+                <h3>2010</h3>
+            </div>
             <div class="wrap">
                 <h2>Drake discovers he's been a lifelong fan of the Kentucky Wildcats, receives championship ring for his recent devotion</h2>
                 <p>
-                	"I'm just a natural fan, I love the team," beamed Drake, referring to his now-favourite team the Kentucky Wildcats, after they win the NCAA Championship. Because of his fandom (and because he is Drake), the Kentucky Wildcats give Drake his very own championship ring for him to keep forever.
+                    "I'm just a natural fan, I love the team," beamed Drake, referring to his now-favourite team the Kentucky Wildcats, after they win the NCAA Championship. Because of his fandom (and because he is Drake), the Kentucky Wildcats give Drake his very own championship ring for him to keep forever.
                 </p>
             </div>
         </div>
@@ -382,9 +382,9 @@
             </div>
         </div>
         <div class="espn">
-        	<div class="firsttake">
-        		<h3>2013</h3>
-        	</div>
+            <div class="firsttake">
+                <h3>2013</h3>
+            </div>
             <div class="wrap">
                 <h2>Announces biggest career move yet: Drake will host the ESPYs (ESPN's sports award show)</h2>
                 <p>
@@ -480,38 +480,38 @@
                 </p>
                 <p class="dash">&#8212;</p>
                 <p class="artists">
-                	Thank you to Drake for bringing the following artists to Toronto:
-            		<ul>
-		                <li>Rick Ross &bullet;</li>
-		                <li>Bun B &bullet;</li>
-		                <li>Young Jeezy &bullet;</li>
-		                <li>Fabolous &bullet;</li>
-		                <li>Eminem &bullet;</li>
-		                <li>Jay-Z &bullet;</li>
-		                <li>Nas &bullet;</li>
-		                <li>J. Cole &bullet;</li>
-		                <li>Lil Wayne &bullet;</li>
-		                <li>Stevie Wonder &bullet;</li>
-		                <li>2 Chainz &bullet;</li>
-		                <li>French Montana &bullet;</li>
-		                <li>Waka Flocka Flame &bullet;</li>
-		                <li>Meek Mill &bullet;</li>
-		                <li>Rick Ross &bullet;</li>
-		                <li>Snoop Dogg &bullet;</li>
-		                <li>Nicki Minaj &bullet;</li>
-		                <li>Frank Ocean &bullet;</li>
-		                <li>James Blake &bullet;</li>
-		                <li>Wale &bullet;</li>
-		                <li>Big Sean &bullet;</li>
-		                <li>French Montana &bullet;</li>
-		                <li>ASAP Rocky &bullet;</li>
-		                <li>J. Cole &bullet;</li>
-		                <li>Ma$e &bullet;</li>
-		                <li>Diddy &bullet;</li>
-		                <li>TLC &bullet;</li>
-		                <li>Lil Wayne &bullet;</li>
-		                <li>Kanye West</li>
-	                </ul>
+                    Thank you to Drake for bringing the following artists to Toronto:
+                    <ul>
+                        <li>Rick Ross &bullet;</li>
+                        <li>Bun B &bullet;</li>
+                        <li>Young Jeezy &bullet;</li>
+                        <li>Fabolous &bullet;</li>
+                        <li>Eminem &bullet;</li>
+                        <li>Jay-Z &bullet;</li>
+                        <li>Nas &bullet;</li>
+                        <li>J. Cole &bullet;</li>
+                        <li>Lil Wayne &bullet;</li>
+                        <li>Stevie Wonder &bullet;</li>
+                        <li>2 Chainz &bullet;</li>
+                        <li>French Montana &bullet;</li>
+                        <li>Waka Flocka Flame &bullet;</li>
+                        <li>Meek Mill &bullet;</li>
+                        <li>Rick Ross &bullet;</li>
+                        <li>Snoop Dogg &bullet;</li>
+                        <li>Nicki Minaj &bullet;</li>
+                        <li>Frank Ocean &bullet;</li>
+                        <li>James Blake &bullet;</li>
+                        <li>Wale &bullet;</li>
+                        <li>Big Sean &bullet;</li>
+                        <li>French Montana &bullet;</li>
+                        <li>ASAP Rocky &bullet;</li>
+                        <li>J. Cole &bullet;</li>
+                        <li>Ma$e &bullet;</li>
+                        <li>Diddy &bullet;</li>
+                        <li>TLC &bullet;</li>
+                        <li>Lil Wayne &bullet;</li>
+                        <li>Kanye West</li>
+                    </ul>
                 </p>
             </div>
         </div>
@@ -536,33 +536,33 @@
             </div>
         </footer>
         <section class="wallpapers">
-    		<p>Download your very own Drake Brow wallpaper</p>
-    		<div class="inner-container">
-    			<div class="columns" id="iphone">
-    				<img class="icon" src="img/iphone-icon.png">
-    				<a target="_blank" href="/download.php?file=hopper-640x960.png">640 x 960</a>
-    				<a target="_blank" href="/download.php?file=hopper-640x1136.png">640 x 1136</a>
-    				<a target="_blank" href="/download.php?file=hopper-720x1280.png">720 x 1280</a>
-    				<a target="_blank" href="/download.php?file=hopper-480x800.png">480 x 800</a>
-    				<a target="_blank" href="/download.php?file=hopper-1080x1920.png">1080 x 1920</a>
-    				<a target="_blank" href="/download.php?file=hopper-480x854.png">480 x 854</a>
-    				<a target="_blank" href="/download.php?file=hopper-540x960.png">540 x 960</a>
-    			</div>
-    			<div class="columns" id="tablet">
-    				<img class="icon" src="img/tablet-icon.png">
-    				<a target="_blank" href="/download.php?file=hopper-2048x2048.png">2048 x 2048</a>
-    				<a target="_blank" href="/download.php?file=hopper-2560x1600.png"> 2560 x 1600</a>
-    			</div>
-    			<div class="columns" id="desktop">
-    				<img class="icon" src="img/desktop-icon.png">
-    				<a target="_blank" href="/download.php?file=hopper-1280x800.png">1280 x 800</a>
-    				<a target="_blank" href="/download.php?file=hopper-1440x900.png">1440 x 900</a>
-    				<a target="_blank" href="/download.php?file=hopper-1680x1050.png">1680 x 1050</a>
-    				<a target="_blank" href="/download.php?file=hopper-1920x1200.png">1920 x 1200</a>
-    				<a target="_blank" href="/download.php?file=hopper-2560x1440.png">2560 x 1440</a>
-    			</div>
-    		</div>
-    	</section>
+            <p>Download your very own Drake Brow wallpaper</p>
+            <div class="inner-container">
+                <div class="columns" id="iphone">
+                    <img class="icon" src="img/iphone-icon.png">
+                    <a target="_blank" href="/download.php?file=hopper-640x960.png">640 x 960</a>
+                    <a target="_blank" href="/download.php?file=hopper-640x1136.png">640 x 1136</a>
+                    <a target="_blank" href="/download.php?file=hopper-720x1280.png">720 x 1280</a>
+                    <a target="_blank" href="/download.php?file=hopper-480x800.png">480 x 800</a>
+                    <a target="_blank" href="/download.php?file=hopper-1080x1920.png">1080 x 1920</a>
+                    <a target="_blank" href="/download.php?file=hopper-480x854.png">480 x 854</a>
+                    <a target="_blank" href="/download.php?file=hopper-540x960.png">540 x 960</a>
+                </div>
+                <div class="columns" id="tablet">
+                    <img class="icon" src="img/tablet-icon.png">
+                    <a target="_blank" href="/download.php?file=hopper-2048x2048.png">2048 x 2048</a>
+                    <a target="_blank" href="/download.php?file=hopper-2560x1600.png"> 2560 x 1600</a>
+                </div>
+                <div class="columns" id="desktop">
+                    <img class="icon" src="img/desktop-icon.png">
+                    <a target="_blank" href="/download.php?file=hopper-1280x800.png">1280 x 800</a>
+                    <a target="_blank" href="/download.php?file=hopper-1440x900.png">1440 x 900</a>
+                    <a target="_blank" href="/download.php?file=hopper-1680x1050.png">1680 x 1050</a>
+                    <a target="_blank" href="/download.php?file=hopper-1920x1200.png">1920 x 1200</a>
+                    <a target="_blank" href="/download.php?file=hopper-2560x1440.png">2560 x 1440</a>
+                </div>
+            </div>
+        </section>
         <div class="disclaimer">
             This website is not associated with Drake or OVO. It's just an unofficial fansite by fans.
         </div>
@@ -573,13 +573,13 @@
         <script type="text/javascript" src="js/app.min.js"></script>
     </div>
     <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-50838789-1', 'startedfromthebottom.ca');
-	  ga('send', 'pageview');
-	</script>
+      ga('create', 'UA-50838789-1', 'startedfromthebottom.ca');
+      ga('send', 'pageview');
+    </script>
 </body>
 </html>
