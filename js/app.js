@@ -80,6 +80,14 @@ $(document).ready(function() {
       duration: 1250
     });
   });
+  $('.arrow').on('click', function(e) {
+    $('.big').removeClass('active');
+    var currYear = '1986';
+    var offset = $('[data-year="' + currYear + '"]').offset();
+    s.animateTo(offset.top, {
+      duration: 1250
+    });
+  });
   $('.close').on('click', function(e) {
     $('.big').removeClass('active');
   });

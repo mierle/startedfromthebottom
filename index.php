@@ -172,7 +172,7 @@
                 <h4>- Drake</h4>
             </div>
         </div>
-        <div class="wayne">
+        <div class="wayne" data-year="2007">
             <div data-10750="background-position: 50% 500%;" data-11500="background-position: 50% 100%;" class="waynesface"></div>
             <div class="wrap">
                 <h3 data-9700="color:rgb(250,250,250);" data-10400="color:rgb(196,44,14);">2007</h3>
@@ -187,7 +187,7 @@
                 </p>
             </div>
         </div>
-        <div id="2007" class="dice" data-year="2007">
+        <div id="2007" class="dice">
             <div data-12500="background-position: 0px -125px;" data-13200="background-position: 0px -50px;" class="prop feet"></div>
             <img data-12700="margin-top: 145px" data-13500="margin-top: 50px;" class="prop bills" src="img/dice/bills.png">
             <img data-12700="margin-top: 100px" data-13500="margin-top: 200px;" class="prop watch" src="img/dice/watch.png">
@@ -246,7 +246,7 @@
                 <h4>- Drake</h4>
             </div>
         </div>
-        <div id="2009" class="ladieslovedrake" data-year="2009">
+        <div id="2009" class="ladieslovedrake">
             <div class="wrap">
                 <h3>2008</h3>
                 <h2>Bootleg Drake album, The Ladies Love Drake, has an outstanding album cover</h2>
@@ -256,7 +256,7 @@
                 </p>
             </div>
         </div>
-        <div class="hot97">
+        <div class="hot97" data-year="2009">
             <div class="wrap">
                 <h3>2009</h3>
                 <h2>Drake freestyles on Hot97</h2>
