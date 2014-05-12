@@ -66,6 +66,13 @@ body {
 	z-index: 100;
 	background-color: white;
 	overflow: hidden;
+	.close {
+		font-size: 30px;
+		display: none;
+		margin-bottom: 15px;
+		z-index: 15;
+		cursor: pointer;
+	}
 	img {
 		display: inline-block;
 	}
@@ -127,15 +134,20 @@ body {
 		opacity: 1;
 	}
 	@include media($tablet) {
-		width: 100%;
+		width: 50%;
 		height: 100%;
-		display: none;
+		display: block;
 		padding: 1em;
+		left: -50%;
 		z-index: 99999999;
 		font-size: 18px;
-		.year {
-			padding: .25em;
+		.close {
 			display: block;
+		}
+		.year {
+			padding: .05em;
+			display: block;
+			font-size: 15px;
 			figure {
 				display: none;
 			}
@@ -147,6 +159,9 @@ body {
 			&.active {
 				color: #555;
 			}
+		}
+		&.active {
+			left: 0% !important;
 		}
 	}
 }
@@ -561,7 +576,7 @@ body {
 	color: $white;
 	background-image: url('img/canada-goose.png');
 	background-position: center bottom;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat !important;
 	padding: 100px 0 100px 0;
 	a {
 		color: #888;
@@ -982,9 +997,17 @@ footer {
 			}
 		}
 		.email {
-			margin: 104px 0 30px 0;
+			margin: 125px 50px 30px 0;
 			@include media($small){
 				margin: 0px;
+			}
+			.share {
+				display: inline;
+				&.fb {
+					position: absolute;
+					margin-top: -1px;
+					margin-left: -30px;
+				}
 			}
 		}
 	}
