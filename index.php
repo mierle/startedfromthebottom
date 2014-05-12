@@ -32,7 +32,7 @@
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    <nav class="small" data-0="top: -400px" data-1050="top: 0px;">
+    <nav class="small" data-0="top: 90%; left: -30%;" data-750="left: 0%" data-38000="top: 0%;">
         <img src="img/smallhead.png">
         <div class="menu"><img src="img/menu.png"></div>
     </nav>

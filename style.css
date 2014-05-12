@@ -148,25 +148,22 @@ body {
 .small {
   opacity: 1;
   position: fixed;
-  top: -1px;
-  left: 10%;
+  left: 0%;
   background-color: #555;
   padding: 1em;
-  z-index: 99; }
+  z-index: 99;
+  cursor: pointer; }
   .small .menu {
     font-size: 10px;
     color: white;
     padding-top: 0.5em;
-    text-transform: uppercase;
-    display: none; }
+    text-transform: uppercase; }
     .small .menu img {
       width: 15px;
       opacity: .8; }
   @media screen and (max-width: 1024px) {
     .small img {
-      width: 25px; }
-    .small .menu {
-      display: block; } }
+      width: 25px; } }
 
 .big {
   -webkit-transition: all 250ms;
