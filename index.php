@@ -590,7 +590,7 @@
         <script type="text/javascript" src="bower_components/gsap/src/minified/TweenMax.min.js"></script>
         <script type="text/javascript" src="bower_components/modernizr/modernizr.js"></script>
         <script type="text/javascript" src="js/skrollr-master/dist/skrollr.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/app.min.js"></script>
     </div>
     <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

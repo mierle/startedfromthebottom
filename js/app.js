@@ -45,7 +45,7 @@ $(document).ready(function() {
 
   var s = skrollr.init({
     render: function(data) {
-      console.log(data.curTop);
+      // console.log(data.curTop);
       for (var i in years) {
         if (i < data.curTop + 250) {
           currYear = years[i];
