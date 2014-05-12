@@ -2,6 +2,8 @@
 <!--[if IE]> <html class="no-js ie8" lang="en"> <![endif]-->
 <!--[if ! IE]><!--> <html class="no-js" xml:lang="en" lang="en"> <!--<![endif]-->
 <head>
+    <title>Started from the Bottom</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="author" href="humans.txt" />
@@ -17,7 +19,7 @@
     <meta name="twitter:url" content="http://startedfromthebottom.ca">
     <meta name="twitter:title" content="An Illustrated History of Drake">
     <meta name="twitter:description" content="Drake's eyebrows, favourite sports teams, and why he no longer plays hockey.">
-    <meta name="twitter:image" content="http://startedfromthebottom.ca/img/share/face-square.jpg">
+    <meta name="twitter:image" content="http://startedfromthebottom.ca/img/share/face-square.png">
     <!--[if IE 8]><script type="text/javascript" src="bower_components/selectivizr/selectivizr.js"></script><![endif]-->
 </head>
 <body>
@@ -252,7 +254,7 @@
                 <h2>Bootleg Drake album, The Ladies Love Drake, has an outstanding album cover</h2>
                 <img src="img/ladieslovedrake.png">
                 <p> 
-                    In 2009, Drake’s newest mixtape, The Ladies Love Drake, goes up for sale on iTunes by a label called ‘Canadian Money Entertainment’. It would have debuted at #101 on the Billboard 200 had it been an official release. But it wasn’t. Drake’s manager at the time referred to the release as “...a straight bootleg, a scandal.”
+                    In 2009, Drake's newest mixtape, The Ladies Love Drake, goes up for sale on iTunes by a label called 'Canadian Money Entertainment'. It would have debuted at #101 on the Billboard 200 had it been an official release. But it wasn't. Drake's manager at the time referred to the release as "...a straight bootleg, a scandal."
                 </p>
             </div>
         </div>
@@ -301,7 +303,7 @@
             </div>
         </div>
         <div id="2011" class="kevin" data-year="2011">
-            <img src="img/face.png" data-23300="margin-top: 200px" data-24100="margin-top: -300px">
+            <img src="img/face.png" data-23500="margin-top: 200px" data-24200="margin-top: -300px">
             <div class="wrap">
                 <h3>2011</h3>
                 <h2>Woman gets the word DRAKE tattooed on forehead</h2>
@@ -408,7 +410,7 @@
             </div>
         </div>
         <div data-year="2014" class="lintroller">
-            <div class="roller" data-35000="left: 20%;" data-35300="left: 70%;" data-35600="left: 10%;">
+            <div class="roller" data-35900="left: 20%;" data-36200="left: 70%;" data-35600="left: 10%;">
                <div data-35600="margin-left: 10%;" data-36200="margin-left: -200%;"></div>
             </div>
             <div class="speckles" data-35300="width: 600px;" data-35600="width: 0px;"></div>
@@ -492,7 +494,7 @@
                 </p>
                 <p class="dash">&#8212;</p>
                 <p class="artists">
-                	Thank you to Drake for bringing the following artists to Toronto:
+                	We'd like to thank Drake for bringing the following artists to Toronto:
             		<ul>
 		                <li>Rick Ross &bullet;</li>
 		                <li>Bun B &bullet;</li>
@@ -538,7 +540,7 @@
                             </script>
                         </div>
                         <div class="share">
-                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startedfromthebottom.ca" data-text="Drake :: Started from the Bottom" data-via="pilotcrew" data-hashtags="drakelove">Tweet</a>
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startedfromthebottom.ca" data-text="Drake : Started from the Bottom" data-via="pilotcrew" data-hashtags="drakelove, startedfromthebottom, love, raptors, ovo">Tweet</a>
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
                             </script>
                         </div>
