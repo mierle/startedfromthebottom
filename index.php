@@ -322,7 +322,7 @@
             <img class="bills" src="img/strippers/stripper-bills2.png" data-26000="margin-top: -5%" data-28500="margin-top: 10%">
             <div class="wrap">
                 <h3>2013</h3>
-                <h4>Charlotte, North Carolina </h4>
+                <h4>Charlotte, North Carolina</h4>
                 <h2>Aubrey tips strippers at a gentleman's club with $50,000 in $1 bills from a cardboard box</h2>
                 <p>
                     Aubrey and his friends visit Cameo Nightclub in Charlotte, North Carolina (<a href="http://www.yelp.ca/biz/cameo-charlotte" target="_blank">Yelp rating: 1.5 stars</a>). They bring a cardboard box filled with $50,000 in $1 bills. The friends proceeded to open the box and toss the dollar bills in the air and all around the nightclub until the floor is literally covered in money. <a href="http://www.tmz.com/2013/03/04/drake-strip-club-50000-charlotte-cameo-nightclub/" target="_blank">They made it rain.</a>
@@ -379,7 +379,7 @@
             </div>
             <div class="banner-bottom">
                 <div class="inner">
-                    <h2>It also features a Nets fan</h2>
+                    <h2>It also features a Nets fan.</h2>
                 </div>
             </div>
         </div>
@@ -387,7 +387,7 @@
             <div class="wrap">
                 <img src="img/raptors.png">
                 <h3>2013</h3>
-                <h2>Drake becomes Canada's biggest sports fan, is hired by Toronto Raptors</h2>
+                <h2>Drake becomes Toronto's most prolific sports fan, is hired by Toronto Raptors</h2>
                 <p>
                     Local sports team, the Toronto Raptors, announces that Drake will be their "Global Ambassador". Though exact details of the duties and responsibilities in the job description are unclear, it seems safe to assume the position will involve attending games on specified "Drake nights," giving away t-shirts, DJing, and announcing players.
                 </p>
@@ -559,25 +559,25 @@
 		<div class="inner-container"> 
 			<div class="columns" id="iphone">
 				<img class="icon" src="img/iphone-icon.png">
-				<a href="download/eyebrows-640x960.png">640 x 960</a>
-				<a href="download/eyebrows-640x1136.png">640 x 1136</a>
-				<a href="download/eyebrows-720x1280.png">720 x 1280</a>
-				<a href="download/eyebrows-480x800.png">480 x 800</a>
-				<a href="download/eyebrows-1080x1920.png">1080 x 1920</a>
-				<a href="download/eyebrows-540x960.png">540 x 960</a>
+				<a href="download.php?file=eyebrows-640x960.png">640 x 960</a>
+				<a href="download.php?file=eyebrows-640x1136.png">640 x 1136</a>
+				<a href="download.php?file=eyebrows-720x1280.png">720 x 1280</a>
+				<a href="download.php?file=eyebrows-480x800.png">480 x 800</a>
+				<a href="download.php?file=eyebrows-1080x1920.png">1080 x 1920</a>
+				<a href="download.php?file=eyebrows-540x960.png">540 x 960</a>
 			</div>
 			<div class="columns" id="tablet">
 				<img class="icon" src="img/tablet-icon.png">
-				<a href="download/eyebrows-1024x768.png">1024 x 768</a>
-				<a href="download/eyebrows-2560x1600.png"> 2560 x 1600</a>
+				<a href="download.php?file=eyebrows-1024x768.png">1024 x 768</a>
+				<a href="download.php?file=eyebrows-2560x1600.png"> 2560 x 1600</a>
 			</div>
 			<div class="columns" id="desktop">
 				<img class="icon" src="img/desktop-icon.png">
-				<a href="download/eyebrows-1280x800.png">1280 x 800</a>
-				<a href="download/eyebrows-1440x900.png">1440 x 900</a>
-				<a href="download/eyebrows-1680x1050.png">1680 x 1050</a>
-				<a href="download/eyebrows-1920x1200.png">1920 x 1200</a>
-				<a href="download/eyebrows-2560x1440.png">2560 x 1440</a>
+				<a href="download.php?file=eyebrows-1280x800.png">1280 x 800</a>
+				<a href="download.php?file=eyebrows-1440x900.png">1440 x 900</a>
+				<a href="download.php?file=eyebrows-1680x1050.png">1680 x 1050</a>
+				<a href="download.php?file=eyebrows-1920x1200.png">1920 x 1200</a>
+				<a href="download.php?file=eyebrows-2560x1440.png">2560 x 1440</a>
 			</div>
 		</div>
 	</section>
