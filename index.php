@@ -410,10 +410,10 @@
             </div>
         </div>
         <div data-year="2014" class="lintroller">
-            <div class="roller" data-35900="left: 20%;" data-36200="left: 70%;" data-35600="left: 10%;">
-               <div data-35600="margin-left: 10%;" data-36200="margin-left: -200%;"></div>
+            <div class="roller" data-35900="left: 70%;" data-36200="left: 20%;" data-35600="left: 10%;">
+               <div data-35600="margin-left: -200%;" data-36200="margin-left: 10%;"></div>
             </div>
-            <div class="speckles" data-35300="width: 600px;" data-35600="width: 0px;"></div>
+            <div class="speckles" data-35950="width: 600px;" data-36250="width: 0px;"></div>
             <img class="leg" src="img/lint/leg.png">
             <div class="wrap">
                 <h3>2014</h3>
