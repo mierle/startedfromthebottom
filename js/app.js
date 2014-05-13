@@ -61,7 +61,7 @@ $(document).ready(function() {
   // Handle download reporting
 
   $('.wallpapers a').click(function(e) {
-    _gaq.push(['_trackEvent', 'Wallpapers', 'Download', $(e.target).html()]);
+    ga('send', 'pageview', 'wallpaper/' + $(e.target).html());
   });
 
   // Handle mobile menu clicks
